@@ -32,6 +32,9 @@
 
 *, *::before, *::after { box-sizing: border-box; }
 
+/* display de classe (.btn e inline-flex) ganha do [hidden] do navegador */
+[hidden] { display: none !important; }
+
 html { scroll-behavior: smooth; scroll-padding-top: 150px; }
 
 body {
