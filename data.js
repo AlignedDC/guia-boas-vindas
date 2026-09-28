@@ -1,0 +1,414 @@
+// gerado por build.py a partir de places.json — nao editar a mao
+window.GUIA = {
+  "office": {
+    "name": "Novo escritório ODATA",
+    "address": "Alameda Gabriel Monteiro da Silva, 2407 — Jardim América, São Paulo",
+    "query": "Alameda Gabriel Monteiro da Silva, 2407, Jardim América, São Paulo, SP, Brasil",
+    "lat": -23.5756968,
+    "lng": -46.6896649
+  },
+  "mapsLists": [
+    {
+      "label": "Abrir lista no Google Maps",
+      "url": "https://maps.app.goo.gl/A2JL4k53VMrdVhcG6",
+      "section": "comer"
+    },
+    {
+      "label": "Abrir lista no Google Maps",
+      "url": "https://maps.app.goo.gl/p7w3sicS5CUXY8k67",
+      "section": "padarias"
+    },
+    {
+      "label": "Abrir lista no Google Maps",
+      "url": "https://maps.app.goo.gl/m2EQkjpm2JPAEPnw5",
+      "section": "mercados"
+    },
+    {
+      "label": "Abrir lista no Google Maps",
+      "url": "https://maps.app.goo.gl/AnJ6K898XouTvGdc6",
+      "section": "shopping"
+    },
+    {
+      "label": "Abrir lista no Google Maps",
+      "url": "https://maps.app.goo.gl/JJUw7HSeytKaFKcW6",
+      "section": "academia"
+    },
+    {
+      "label": "Abrir lista no Google Maps",
+      "url": "https://maps.app.goo.gl/cC9aY6V271iDwYrT8",
+      "section": "estacionamento"
+    }
+  ],
+  "sections": [
+    {
+      "key": "comer",
+      "num": "01",
+      "title": "Onde comer",
+      "intro": "O polo gastronômico mais próximo fica na Rua dos Pinheiros, a cerca de 10–12 min a pé.",
+      "places": [
+        {
+          "name": "Donna Carolina",
+          "dist": "850 m",
+          "walk": "10 min a pé",
+          "desc": "Bar e restaurante de comida brasileira, self-service e à la carte. Muito movimentado no almoço — chegar antes das 12h evita fila. Feijoada às quartas.",
+          "addr": "R. dos Pinheiros, 1205",
+          "query": "Rua dos Pinheiros, 1205, São Paulo, SP, Brasil",
+          "lat": -23.5682097,
+          "lng": -46.6892838
+        },
+        {
+          "name": "Porto",
+          "dist": "850 m",
+          "walk": "10 min a pé",
+          "desc": "Pratos executivos bem servidos (parmegiana, massas), preço justo para a região. Boa opção de almoço rápido.",
+          "addr": "R. dos Pinheiros, 1387",
+          "query": "Rua dos Pinheiros, 1387, São Paulo, SP, Brasil",
+          "lat": -23.5681958,
+          "lng": -46.6910991
+        },
+        {
+          "name": "Trentino Restaurante",
+          "dist": "850 m",
+          "walk": "10 min a pé",
+          "desc": "Self-service completo, aberto apenas para almoço (seg–sex, até 15h). Fica lotado no horário de pico.",
+          "addr": "R. dos Pinheiros, 1397",
+          "query": "Rua dos Pinheiros, 1397, São Paulo, SP, Brasil",
+          "lat": -23.5681812,
+          "lng": -46.6911828
+        },
+        {
+          "name": "Restaurante Capim Santo",
+          "dist": "900 m",
+          "walk": "11 min a pé",
+          "desc": "Opção mais sofisticada para almoços de negócios ou happy hour — jardim interno na Av. Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 2705",
+          "query": "Avenida Brigadeiro Faria Lima, 2705, São Paulo, SP, Brasil",
+          "lat": -23.5799635,
+          "lng": -46.6844479
+        },
+        {
+          "name": "Padoca of Maní · Um Coffee Co. · KOF",
+          "dist": "1,0–1,4 km",
+          "walk": "12–18 min a pé",
+          "desc": "Para café da manhã, brunch ou uma pausa com wi-fi, essas três padarias/cafeterias ficam um pouco mais longe, mas valem o passeio.",
+          "addr": "",
+          "query": ""
+        }
+      ]
+    },
+    {
+      "key": "padarias",
+      "num": "02",
+      "title": "Padarias & Cafeterias",
+      "intro": "Para café da manhã, pausa da tarde ou uma reunião informal — as opções mais próximas ficam a poucos minutos a pé.",
+      "places": [
+        {
+          "name": "Café & Bistro",
+          "dist": "180 m",
+          "walk": "2 min a pé",
+          "desc": "A cafeteria mais próxima do escritório. Boa opção para um café rápido ou reunião informal pela manhã.",
+          "addr": "Av. Brig. Faria Lima, 1912, lj 125 · seg–sex 7h30–17h30",
+          "query": "Avenida Brigadeiro Faria Lima, 1912, São Paulo, SP, Brasil",
+          "highlight": true,
+          "lat": -23.5739753,
+          "lng": -46.6886544,
+          "approx": true
+        },
+        {
+          "name": "A Quinta do Marquês",
+          "dist": "300 m",
+          "walk": "4 min a pé",
+          "desc": "Padaria de grande porte com buffet, vinhos e forno próprio. Fica bem na Faria Lima — ótima para o café da manhã ou para levar algo para o escritório.",
+          "addr": "Av. Brig. Faria Lima, 1853",
+          "query": "Avenida Brigadeiro Faria Lima, 1853, São Paulo, SP, Brasil",
+          "lat": -23.5733809,
+          "lng": -46.6887661
+        },
+        {
+          "name": "Almond Café",
+          "dist": "500 m",
+          "walk": "6 min a pé",
+          "desc": "Cafeteria especializada, boas opções veganas e sem glúten. Aberta 24h em dias úteis.",
+          "addr": "Av. Brig. Faria Lima, 1572",
+          "query": "Avenida Brigadeiro Faria Lima, 1572, São Paulo, SP, Brasil",
+          "lat": -23.5715193,
+          "lng": -46.6908001
+        },
+        {
+          "name": "Sterna Café — Garnero",
+          "dist": "620 m",
+          "walk": "8 min a pé",
+          "desc": "Ambiente aconchegante, boa opção para almoço leve ou café da tarde. Fechado aos finais de semana.",
+          "addr": "Av. Brig. Faria Lima, 1461",
+          "query": "Avenida Brigadeiro Faria Lima, 1461, São Paulo, SP, Brasil",
+          "lat": -23.5703173,
+          "lng": -46.6909281
+        },
+        {
+          "name": "Padaria Nova Pão Kent",
+          "dist": "800 m",
+          "walk": "10 min a pé",
+          "desc": "Padaria tradicional, cardápio variado com opções vegana e sem lactose. Fica perto do Parque do Povo.",
+          "addr": "R. Prof. Artur Ramos, 223",
+          "query": "Rua Professor Artur Ramos, 223, São Paulo, SP, Brasil",
+          "lat": -23.5820149,
+          "lng": -46.6862177
+        }
+      ]
+    },
+    {
+      "key": "mercados",
+      "num": "03",
+      "title": "Mercados",
+      "intro": "Para compras rápidas, a opção mais próxima fica dentro do próprio Shopping Iguatemi.",
+      "places": [
+        {
+          "name": "Pão de Açúcar (Shopping Iguatemi)",
+          "dist": "255 m",
+          "walk": "3 min a pé",
+          "desc": "Unidade compacta dentro do shopping, com boa padaria própria e produtos frescos. Ideal para compras do dia a dia.",
+          "addr": "Av. Brig. Faria Lima, 2232 · seg–sáb 8h–22h, dom 8h–20h",
+          "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "highlight": true,
+          "lat": -23.5771992,
+          "lng": -46.6880485
+        },
+        {
+          "name": "Carrefour Express Fradique Coutinho",
+          "dist": "1,26 km",
+          "walk": "16 min a pé",
+          "desc": "Funciona quase 24h — boa opção para compras de última hora fora do horário comercial, embora um pouco mais longe.",
+          "addr": "R. Fradique Coutinho, 125",
+          "query": "Rua Fradique Coutinho, 125, São Paulo, SP, Brasil",
+          "lat": -23.5653469,
+          "lng": -46.6850484
+        },
+        {
+          "name": "Empório Varanda",
+          "dist": "1,23 km",
+          "walk": "16 min a pé",
+          "desc": "Mercado + padaria + restaurante em um só lugar, com sushi e produtos selecionados. Estacionamento gratuito no local.",
+          "addr": "Praça Deputado Dario de Barros, 15",
+          "query": "Praça Deputado Dario de Barros, 15, São Paulo, SP, Brasil",
+          "lat": -23.5864539,
+          "lng": -46.6933487
+        }
+      ]
+    },
+    {
+      "key": "shopping",
+      "num": "04",
+      "title": "Shopping Iguatemi",
+      "intro": "Está literalmente ao lado do escritório — a poucos passos da porta.",
+      "places": [
+        {
+          "name": "Iguatemi São Paulo",
+          "dist": "190 m",
+          "walk": "2–3 min a pé",
+          "desc": "Um dos shoppings mais completos da cidade: praça de alimentação, restaurantes, cinema, farmácia, banco e lojas de todos os tipos. Ótima opção para almoço, resolver pendências ou receber visitas de clientes.",
+          "addr": "Av. Brig. Faria Lima, 2232 · seg–sáb 10h–22h, dom 12h–20h",
+          "query": "Shopping Iguatemi São Paulo, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "highlight": true,
+          "lat": -23.5771992,
+          "lng": -46.6880485
+        },
+        {
+          "name": "Garagem Faria Lima (estacionamento do shopping)",
+          "dist": "220 m",
+          "walk": "3 min a pé",
+          "desc": "Estacionamento oficial do Iguatemi, no mesmo endereço do shopping. Opção mais prática para quem for de carro até lá durante o expediente.",
+          "addr": "Av. Brig. Faria Lima, 2232",
+          "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485
+        }
+      ]
+    },
+    {
+      "key": "academia",
+      "num": "05",
+      "title": "Academia",
+      "intro": "Duas opções ficam a menos de 200 m da porta do escritório.",
+      "places": [
+        {
+          "name": "HIIT Club — Health & Fitness",
+          "dist": "150 m",
+          "walk": "2 min a pé",
+          "desc": "A mais próxima de todas. Treino personalizado em grupos pequenos, equipamento completo, staff bilíngue.",
+          "addr": "Av. Brig. Faria Lima, 2092 · seg–sex 6h–21h, sáb 9h–13h",
+          "query": "Avenida Brigadeiro Faria Lima, 2092, São Paulo, SP, Brasil",
+          "highlight": true,
+          "lat": -23.5757887,
+          "lng": -46.6883136,
+          "approx": true
+        },
+        {
+          "name": "Espaço Andreia Monteiro — Pilates",
+          "dist": "175 m",
+          "walk": "2 min a pé",
+          "desc": "Estúdio de pilates bem avaliado, ambiente amplo e claro. Ótima opção para quem prefere treino de baixo impacto.",
+          "addr": "Av. Brig. Faria Lima, 2128, sl 902",
+          "query": "Avenida Brigadeiro Faria Lima, 2128, São Paulo, SP, Brasil",
+          "highlight": true,
+          "lat": -23.5759255,
+          "lng": -46.688095
+        },
+        {
+          "name": "The Yard — Academia",
+          "dist": "830 m",
+          "walk": "10 min a pé",
+          "desc": "Foco em crossfit e HYROX, estrutura nova e bem avaliada, para quem quer treino de maior intensidade.",
+          "addr": "R. Cláudio Soares, 160",
+          "query": "Rua Cláudio Soares, 160, São Paulo, SP, Brasil",
+          "lat": -23.5691145,
+          "lng": -46.6935616
+        },
+        {
+          "name": "Bodytech (Av. Rebouças)",
+          "dist": "1,2 km",
+          "walk": "15 min a pé",
+          "desc": "Rede premium com piscina, sauna e restaurante interno — mais distante, mas com estrutura completa para quem já é sócio.",
+          "addr": "Av. Rebouças",
+          "query": "Bodytech, Avenida Rebouças, São Paulo, SP, Brasil",
+          "lat": null,
+          "lng": null
+        }
+      ]
+    },
+    {
+      "key": "estacionamento",
+      "num": "06",
+      "title": "Estacionamento",
+      "intro": "A opção mais próxima tem avaliações ruins — vale considerar a segunda alternativa mesmo estando um pouco mais longe.",
+      "places": [
+        {
+          "name": "CAL Center — GarageINN",
+          "dist": "210 m",
+          "walk": "3 min a pé",
+          "desc": "É o mais perto, mas os funcionários avisam de demora recorrente (30–50 min) para liberar o carro e mau atendimento. Use com esse alerta em mente.",
+          "addr": "Av. Brig. Faria Lima, 1912",
+          "query": "Avenida Brigadeiro Faria Lima, 1912, São Paulo, SP, Brasil",
+          "warn": true,
+          "lat": -23.5739753,
+          "lng": -46.6886544,
+          "approx": true
+        },
+        {
+          "name": "Garagem Faria Lima (Shopping Iguatemi)",
+          "dist": "220 m",
+          "walk": "3 min a pé",
+          "desc": "Estacionamento do shopping, bem sinalizado — boa alternativa próxima ao GarageINN, com estrutura maior.",
+          "addr": "Av. Brig. Faria Lima, 2232",
+          "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "highlight": true,
+          "lat": -23.5771992,
+          "lng": -46.6880485
+        },
+        {
+          "name": "AC Parking Estacionamentos",
+          "dist": "700 m",
+          "walk": "9 min a pé",
+          "desc": "Bem avaliado, manobristas atenciosos — a melhor relação distância/qualidade da região.",
+          "addr": "R. Diogo Moreira, 247",
+          "query": "Rua Diogo Moreira, 247, São Paulo, SP, Brasil",
+          "lat": -23.5706331,
+          "lng": -46.6933881
+        },
+        {
+          "name": "And Park / Valet Gabriel",
+          "dist": "1,0 km",
+          "walk": "13 min a pé",
+          "desc": "Serviço de valet bem avaliado, útil para reuniões com visitantes ou clientes.",
+          "addr": "Al. Gabriel Monteiro da Silva, 1324",
+          "query": "Alameda Gabriel Monteiro da Silva, 1324, São Paulo, SP, Brasil",
+          "lat": -23.571226,
+          "lng": -46.6809264
+        },
+        {
+          "name": "Estacionamento ECP (Esporte Clube Pinheiros)",
+          "dist": "385 m",
+          "walk": "5 min a pé",
+          "desc": "É o mais próximo de todos, porém de uso restrito a associados do clube — não disponível ao público em geral.",
+          "addr": "Esporte Clube Pinheiros",
+          "query": "Esporte Clube Pinheiros, São Paulo, SP, Brasil",
+          "lat": -23.5800897,
+          "lng": -46.6891336
+        },
+        {
+          "name": "Bandeira Park Faria Lima",
+          "dist": "450 m",
+          "walk": "6 min a pé",
+          "desc": "Fica na mesma rua do Adega Santiago — a poucos números de distância. Bem avaliado, limpo e bem sinalizado, embora com preço um pouco mais alto.",
+          "addr": "R. Sampaio Vidal, 1173",
+          "query": "Rua Sampaio Vidal, 1173, São Paulo, SP, Brasil",
+          "highlight": true,
+          "lat": -23.5700711,
+          "lng": -46.6867539
+        },
+        {
+          "name": "BandeiraPark Sampaio Vidal",
+          "dist": "490 m",
+          "walk": "6 min a pé",
+          "desc": "Alternativa na mesma rua, a poucos metros da anterior — mesma administradora.",
+          "addr": "R. Sampaio Vidal, 1154",
+          "query": "Rua Sampaio Vidal, 1154, São Paulo, SP, Brasil",
+          "lat": -23.5715406,
+          "lng": -46.6896789
+        }
+      ]
+    },
+    {
+      "key": "transporte",
+      "num": "07",
+      "title": "Transporte público",
+      "intro": "A região é mais forte em ônibus do que em metrô/trem — a estação mais próxima fica a cerca de 15 min a pé.",
+      "places": [
+        {
+          "name": "Ponto Av. Brig. Faria Lima",
+          "tag": "Ônibus",
+          "dist": "270 m",
+          "walk": "3 min a pé",
+          "desc": "Diversas linhas municipais e metropolitanas — é o transporte público mais conveniente para quem vem de outras regiões.",
+          "addr": "Av. Brig. Faria Lima",
+          "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485
+        },
+        {
+          "name": "Parada Irlandino Sandoval",
+          "tag": "Ônibus",
+          "dist": "395 m",
+          "walk": "5 min a pé",
+          "desc": "Também na Faria Lima, sentido oposto.",
+          "addr": "Av. Brig. Faria Lima",
+          "query": "Rua Irlandino Sandoval, São Paulo, SP, Brasil",
+          "lat": -23.5734845,
+          "lng": -46.6917383
+        },
+        {
+          "name": "Estação Fradique Coutinho",
+          "tag": "Metrô · Linha 4-Amarela",
+          "dist": "1,2 km",
+          "walk": "15 min a pé",
+          "desc": "A estação de metrô mais próxima do escritório.",
+          "addr": "Estação Fradique Coutinho",
+          "query": "Estação Fradique Coutinho, São Paulo, SP, Brasil",
+          "lat": -23.5660619,
+          "lng": -46.6842793
+        },
+        {
+          "name": "Estação Pinheiros",
+          "tag": "Metrô + Trem (CPTM)",
+          "dist": "1,4 km",
+          "walk": "18 min a pé",
+          "desc": "Integração entre a Linha 4-Amarela (metrô) e a Linha 9-Esmeralda (CPTM). Melhor opção para quem vem de outras cidades da região metropolitana.",
+          "addr": "Estação Pinheiros",
+          "query": "Estação Pinheiros, São Paulo, SP, Brasil",
+          "lat": -23.567249,
+          "lng": -46.7019515
+        }
+      ]
+    }
+  ],
+  "footnote": "Distâncias e tempos de caminhada são aproximados, calculados em linha reta a partir do endereço-base (Al. Gabriel Monteiro da Silva, 2407). Horários de funcionamento podem variar — confirme antes de ir."
+};
