@@ -57,21 +57,19 @@
     document.getElementById("hero-address").textContent = G.office.address;
     document.getElementById("footnote").textContent = G.footnote;
 
-    document.getElementById("btn-rota").href =
-      "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(G.office.query);
-
     var cta = document.getElementById("hero-cta");
-    var abrir = el("a", "btn btn-primary");
-    abrir.href = linkMaps(G.office);
-    abrir.target = "_blank";
-    abrir.rel = "noopener";
-    abrir.appendChild(icone(SVG_PIN));
-    abrir.appendChild(document.createTextNode("Abrir o escritório no Maps"));
-    cta.appendChild(abrir);
 
-    // Listas sem secao valem para o guia inteiro e viram botao no topo.
-    // As que apontam para uma secao aparecem dentro dela, em montarLista().
-    (G.mapsLists || []).filter(function (l) { return !l.section; }).forEach(function (lista, i) {
+    var rota = el("a", "btn btn-primary");
+    rota.href = "https://www.google.com/maps/dir/?api=1&destination=" + encodeURIComponent(G.office.query);
+    rota.target = "_blank";
+    rota.rel = "noopener";
+    rota.appendChild(icone(SVG_PIN));
+    rota.appendChild(document.createTextNode("Como chegar"));
+    cta.appendChild(rota);
+
+    // Listas com secao aparecem dentro dela, em montarLista(). Uma lista sem
+    // secao valeria para o guia inteiro e cairia aqui — hoje nao existe.
+    (G.mapsLists || []).filter(function (l) { return !l.section; }).forEach(function (lista) {
       var a = el("a", "btn btn-ghost");
       a.href = lista.url;
       a.target = "_blank";
@@ -79,12 +77,6 @@
       a.appendChild(icone(SVG_LISTA));
       a.appendChild(document.createTextNode(lista.label));
       cta.appendChild(a);
-
-      if (i === 0) {
-        var topo = document.getElementById("btn-lista-topo");
-        topo.href = lista.url;
-        topo.hidden = false;
-      }
     });
   }
 
