@@ -8,7 +8,7 @@
 
   var COR = {
     comer: "#ee3968",
-    padarias: "#f8991d",
+    cafeterias: "#f8991d",
     mercados: "#33d592",
     shopping: "#3e92ea",
     academia: "#FDD835",
