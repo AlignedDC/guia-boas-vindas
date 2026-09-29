@@ -165,7 +165,7 @@
       head.appendChild(el("span", "section-num", s.num));
       head.appendChild(el("h2", null, s.title));
       sec.appendChild(head);
-      sec.appendChild(el("p", "intro", s.intro));
+      if (s.intro) sec.appendChild(el("p", "intro", s.intro));
 
       (G.mapsLists || []).forEach(function (lista) {
         if (lista.section !== s.key) return;
