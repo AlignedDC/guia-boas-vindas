@@ -46,6 +46,16 @@
       "intro": "Todas as opções abaixo ficam a menos de 10 minutos a pé.",
       "places": [
         {
+          "name": "Café Árabe",
+          "dist": "194 m",
+          "walk": "2 min a pé",
+          "desc": "Cozinha árabe na Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 1987",
+          "query": "Café Árabe, Avenida Brigadeiro Faria Lima, 1987, São Paulo, SP, Brasil",
+          "lat": -23.5744975,
+          "lng": -46.6882787
+        },
+        {
           "name": "Frevo (Shopping Iguatemi)",
           "dist": "235 m",
           "walk": "3 min a pé",
@@ -225,6 +235,17 @@
       "intro": "Para café da manhã, pausa da tarde ou uma reunião informal — as opções mais próximas ficam a poucos minutos a pé.",
       "places": [
         {
+          "name": "Mokaflor Café",
+          "dist": "158 m",
+          "walk": "2 min a pé",
+          "desc": "Café de rua na Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 2136 · seg–sex 8h–18h · sáb 9h–15h",
+          "query": "Mokaflor Café e Tabacaria, Avenida Brigadeiro Faria Lima, 2136, São Paulo, SP, Brasil",
+          "lat": -23.576232,
+          "lng": -46.6882303,
+          "approx": true
+        },
+        {
           "name": "Café & Bistro",
           "dist": "217 m",
           "walk": "3 min a pé",
@@ -285,8 +306,30 @@
       "key": "mercados",
       "num": "03",
       "title": "Mercados",
-      "intro": "Para compras rápidas, a opção mais próxima fica dentro do próprio Shopping Iguatemi.",
+      "intro": "As três opções ficam a menos de 5 minutos a pé.",
       "places": [
+        {
+          "name": "Hirota Food Express",
+          "dist": "152 m",
+          "walk": "2 min a pé",
+          "desc": "Supermercado de rua na Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 1999",
+          "query": "Hirota Food Express, Avenida Brigadeiro Faria Lima, 1999, São Paulo, SP, Brasil",
+          "lat": -23.5748518,
+          "lng": -46.6884897,
+          "approx": true
+        },
+        {
+          "name": "Carrefour Express",
+          "dist": "194 m",
+          "walk": "2 min a pé",
+          "desc": "Loja de conveniência: padaria, hortifrúti, pratos prontos e bebidas.",
+          "addr": "Av. Brig. Faria Lima, 1939",
+          "query": "Carrefour Express, Avenida Brigadeiro Faria Lima, 1939, São Paulo, SP, Brasil",
+          "lat": -23.5742473,
+          "lng": -46.6886033,
+          "approx": true
+        },
         {
           "name": "Pão de Açúcar (Shopping Iguatemi)",
           "dist": "235 m",
@@ -297,32 +340,61 @@
           "highlight": true,
           "lat": -23.5771992,
           "lng": -46.6880485
+        }
+      ]
+    },
+    {
+      "key": "farmacias",
+      "num": "04",
+      "title": "Farmácias",
+      "intro": "As duas ficam na Faria Lima, quase em frente uma à outra.",
+      "places": [
+        {
+          "name": "Drogasil",
+          "dist": "153 m",
+          "walk": "2 min a pé",
+          "desc": "Farmácia na Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 2127",
+          "query": "Drogasil, Avenida Brigadeiro Faria Lima, 2127, São Paulo, SP, Brasil",
+          "lat": -23.5761414,
+          "lng": -46.6882473,
+          "approx": true
         },
         {
-          "name": "Carrefour Express Fradique Coutinho",
-          "dist": "1,24 km",
-          "walk": "16 min a pé",
-          "desc": "Funciona quase 24h — boa opção para compras de última hora fora do horário comercial, embora um pouco mais longe.",
-          "addr": "R. Fradique Coutinho, 125",
-          "query": "Rua Fradique Coutinho, 125, São Paulo, SP, Brasil",
-          "lat": -23.5653469,
-          "lng": -46.6850484
-        },
+          "name": "Drogaria São Paulo",
+          "dist": "171 m",
+          "walk": "2 min a pé",
+          "desc": "Farmácia na Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 2156",
+          "query": "Drogaria São Paulo, Avenida Brigadeiro Faria Lima, 2156, São Paulo, SP, Brasil",
+          "lat": -23.5764335,
+          "lng": -46.6881924,
+          "approx": true
+        }
+      ]
+    },
+    {
+      "key": "correios",
+      "num": "05",
+      "title": "Correios",
+      "intro": "",
+      "places": [
         {
-          "name": "Empório Varanda",
-          "dist": "1,25 km",
-          "walk": "16 min a pé",
-          "desc": "Mercado + padaria + restaurante em um só lugar, com sushi e produtos selecionados. Estacionamento gratuito no local.",
-          "addr": "Praça Deputado Dario de Barros, 15",
-          "query": "Praça Deputado Dario de Barros, 15, São Paulo, SP, Brasil",
-          "lat": -23.5864539,
-          "lng": -46.6933487
+          "name": "Correios Faria Lima",
+          "dist": "134 m",
+          "walk": "2 min a pé",
+          "desc": "Agência dos Correios na Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 2070",
+          "query": "Correios, Avenida Brigadeiro Faria Lima, 2070, São Paulo, SP, Brasil",
+          "lat": -23.5755671,
+          "lng": -46.6883552,
+          "approx": true
         }
       ]
     },
     {
       "key": "shopping",
-      "num": "04",
+      "num": "06",
       "title": "Shoppings",
       "intro": "O Iguatemi está literalmente ao lado do escritório — a poucos passos da porta.",
       "places": [
@@ -334,16 +406,6 @@
           "addr": "Av. Brig. Faria Lima, 2232 · seg–sáb 10h–22h, dom 12h–20h",
           "query": "Shopping Iguatemi São Paulo, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
           "highlight": true,
-          "lat": -23.5771992,
-          "lng": -46.6880485
-        },
-        {
-          "name": "Garagem Faria Lima (estacionamento do shopping)",
-          "dist": "235 m",
-          "walk": "3 min a pé",
-          "desc": "Estacionamento oficial do Iguatemi, no mesmo endereço do shopping. Opção mais prática para quem for de carro até lá durante o expediente.",
-          "addr": "Av. Brig. Faria Lima, 2232",
-          "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
           "lat": -23.5771992,
           "lng": -46.6880485
         },
@@ -361,7 +423,7 @@
     },
     {
       "key": "academia",
-      "num": "05",
+      "num": "07",
       "title": "Academia",
       "intro": "Duas opções ficam a menos de 200 m da porta do escritório.",
       "places": [
@@ -412,7 +474,7 @@
     },
     {
       "key": "estacionamento",
-      "num": "06",
+      "num": "08",
       "title": "Estacionamento",
       "intro": "A opção mais próxima tem avaliações ruins — vale considerar a segunda alternativa mesmo estando um pouco mais longe.",
       "places": [
@@ -494,7 +556,7 @@
     },
     {
       "key": "transporte",
-      "num": "07",
+      "num": "09",
       "title": "Transporte público",
       "intro": "A região é mais forte em ônibus do que em metrô/trem — a estação mais próxima fica a cerca de 12 min a pé.",
       "places": [

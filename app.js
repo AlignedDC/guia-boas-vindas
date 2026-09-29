@@ -12,6 +12,8 @@
     mercados: "#33d592",
     shopping: "#3e92ea",
     academia: "#FDD835",
+    farmacias: "#7751A9",
+    correios: "#e6e7e8",
     estacionamento: "#A267D8",
     transporte: "#4CAF50"
   };
