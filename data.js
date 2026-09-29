@@ -238,24 +238,47 @@ window.GUIA = {
           "approx": true
         },
         {
-          "name": "Almond Café",
-          "dist": "479 m",
-          "walk": "6 min a pé",
-          "desc": "Cafeteria especializada, boas opções veganas e sem glúten. Aberta 24h em dias úteis.",
-          "addr": "Av. Brig. Faria Lima, 1572",
-          "query": "Avenida Brigadeiro Faria Lima, 1572, São Paulo, SP, Brasil",
-          "lat": -23.5715193,
-          "lng": -46.6908001
+          "name": "Café Zinn (Shopping Iguatemi)",
+          "dist": "235 m",
+          "walk": "3 min a pé",
+          "desc": "Cafeteria no piso térreo do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
+          "query": "Café Zinn, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "highlight": true
         },
         {
-          "name": "Sterna Café — Garnero",
-          "dist": "612 m",
-          "walk": "8 min a pé",
-          "desc": "Ambiente aconchegante, boa opção para almoço leve ou café da tarde. Fechado aos finais de semana.",
-          "addr": "Av. Brig. Faria Lima, 1461",
-          "query": "Avenida Brigadeiro Faria Lima, 1461, São Paulo, SP, Brasil",
-          "lat": -23.5703173,
-          "lng": -46.6909281
+          "name": "Kopenhagen (Shopping Iguatemi)",
+          "dist": "235 m",
+          "walk": "3 min a pé",
+          "desc": "Cafeteria e confeitaria no piso térreo do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
+          "query": "Kopenhagen, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "highlight": true
+        },
+        {
+          "name": "Pati Piva (Shopping Iguatemi)",
+          "dist": "235 m",
+          "walk": "3 min a pé",
+          "desc": "Confeitaria e café no piso superior do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso superior",
+          "query": "Pati Piva, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "highlight": true
+        },
+        {
+          "name": "The Coffee",
+          "dist": "270 m",
+          "walk": "3 min a pé",
+          "desc": "Café de balcão, de inspiração japonesa — pegar e levar.",
+          "addr": "Av. Brig. Faria Lima, 2237 · seg–sex 7h30–18h30",
+          "query": "The Coffee, Avenida Brigadeiro Faria Lima, 2237, São Paulo, SP, Brasil",
+          "lat": -23.5764218,
+          "lng": -46.6871348
         }
       ]
     },
