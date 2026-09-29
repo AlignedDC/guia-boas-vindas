@@ -47,16 +47,6 @@ window.GUIA = {
       "intro": "O polo gastronômico mais próximo fica na Rua dos Pinheiros, a cerca de 10–12 min a pé.",
       "places": [
         {
-          "name": "Donna Carolina",
-          "dist": "850 m",
-          "walk": "10 min a pé",
-          "desc": "Bar e restaurante de comida brasileira, self-service e à la carte. Muito movimentado no almoço — chegar antes das 12h evita fila. Feijoada às quartas.",
-          "addr": "R. dos Pinheiros, 1205",
-          "query": "Rua dos Pinheiros, 1205, São Paulo, SP, Brasil",
-          "lat": -23.5682097,
-          "lng": -46.6892838
-        },
-        {
           "name": "Porto",
           "dist": "850 m",
           "walk": "10 min a pé",
@@ -85,14 +75,6 @@ window.GUIA = {
           "query": "Avenida Brigadeiro Faria Lima, 2705, São Paulo, SP, Brasil",
           "lat": -23.5799635,
           "lng": -46.6844479
-        },
-        {
-          "name": "Padoca of Maní · Um Coffee Co. · KOF",
-          "dist": "1,0–1,4 km",
-          "walk": "12–18 min a pé",
-          "desc": "Para café da manhã, brunch ou uma pausa com wi-fi, essas três padarias/cafeterias ficam um pouco mais longe, mas valem o passeio.",
-          "addr": "",
-          "query": ""
         }
       ]
     },
@@ -198,8 +180,8 @@ window.GUIA = {
     {
       "key": "shopping",
       "num": "04",
-      "title": "Shopping Iguatemi",
-      "intro": "Está literalmente ao lado do escritório — a poucos passos da porta.",
+      "title": "Shoppings",
+      "intro": "O Iguatemi está literalmente ao lado do escritório — a poucos passos da porta.",
       "places": [
         {
           "name": "Iguatemi São Paulo",
@@ -221,6 +203,16 @@ window.GUIA = {
           "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
           "lat": -23.5771992,
           "lng": -46.6880485
+        },
+        {
+          "name": "Shopping Eldorado",
+          "dist": "713 m",
+          "walk": "9 min a pé",
+          "desc": "Segunda opção de shopping na região, na Av. Rebouças.",
+          "addr": "Av. Rebouças",
+          "query": "Shopping Eldorado, Avenida Rebouças, São Paulo, SP, Brasil",
+          "lat": -23.5726463,
+          "lng": -46.6958195
         }
       ]
     },
@@ -361,48 +353,59 @@ window.GUIA = {
       "key": "transporte",
       "num": "07",
       "title": "Transporte público",
-      "intro": "A região é mais forte em ônibus do que em metrô/trem — a estação mais próxima fica a cerca de 15 min a pé.",
+      "intro": "A região é mais forte em ônibus do que em metrô/trem — a estação mais próxima fica a cerca de 12 min a pé.",
       "places": [
         {
-          "name": "Ponto Av. Brig. Faria Lima",
+          "name": "Ponto Faria Lima, 1826",
           "tag": "Ônibus",
-          "dist": "270 m",
+          "dist": "254 m",
           "walk": "3 min a pé",
           "desc": "Diversas linhas municipais e metropolitanas — é o transporte público mais conveniente para quem vem de outras regiões.",
-          "addr": "Av. Brig. Faria Lima",
-          "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
+          "addr": "Av. Brig. Faria Lima, 1826 · parada Dona Elisa Pereira de Barros",
+          "query": "Avenida Brigadeiro Faria Lima, 1826, São Paulo, SP, Brasil",
+          "lat": -23.573424,
+          "lng": -46.689392
         },
         {
-          "name": "Parada Irlandino Sandoval",
+          "name": "Ponto Faria Lima, 1811",
           "tag": "Ônibus",
-          "dist": "395 m",
-          "walk": "5 min a pé",
-          "desc": "Também na Faria Lima, sentido oposto.",
-          "addr": "Av. Brig. Faria Lima",
-          "query": "Rua Irlandino Sandoval, São Paulo, SP, Brasil",
-          "lat": -23.5734845,
-          "lng": -46.6917383
+          "dist": "302 m",
+          "walk": "4 min a pé",
+          "desc": "Mesma avenida, sentido oposto.",
+          "addr": "Av. Brig. Faria Lima, 1811 · parada Benedito Chaves",
+          "query": "Avenida Brigadeiro Faria Lima, 1811, São Paulo, SP, Brasil",
+          "lat": -23.5730054,
+          "lng": -46.6892907
+        },
+        {
+          "name": "Estação Hebraica–Rebouças",
+          "tag": "Trem (CPTM) · Linha 9-Esmeralda",
+          "dist": "945 m",
+          "walk": "12 min a pé",
+          "desc": "Estação da Linha 9-Esmeralda, na Marginal Pinheiros — a estação mais próxima do escritório.",
+          "addr": "Marginal Pinheiros",
+          "query": "Estação Hebraica-Rebouças, São Paulo, SP, Brasil",
+          "lat": -23.5735742,
+          "lng": -46.698645
         },
         {
           "name": "Estação Fradique Coutinho",
           "tag": "Metrô · Linha 4-Amarela",
-          "dist": "1,2 km",
+          "dist": "1,18 km",
           "walk": "15 min a pé",
           "desc": "A estação de metrô mais próxima do escritório.",
-          "addr": "Estação Fradique Coutinho",
+          "addr": "Estação Fradique Coutinho, Rua dos Pinheiros",
           "query": "Estação Fradique Coutinho, São Paulo, SP, Brasil",
-          "lat": -23.5660619,
-          "lng": -46.6842793
+          "lat": -23.566389,
+          "lng": -46.6840567
         },
         {
           "name": "Estação Pinheiros",
           "tag": "Metrô + Trem (CPTM)",
-          "dist": "1,4 km",
-          "walk": "18 min a pé",
+          "dist": "1,57 km",
+          "walk": "20 min a pé",
           "desc": "Integração entre a Linha 4-Amarela (metrô) e a Linha 9-Esmeralda (CPTM). Melhor opção para quem vem de outras cidades da região metropolitana.",
-          "addr": "Estação Pinheiros",
+          "addr": "Rua Capri, Pinheiros",
           "query": "Estação Pinheiros, São Paulo, SP, Brasil",
           "lat": -23.567249,
           "lng": -46.7019515
