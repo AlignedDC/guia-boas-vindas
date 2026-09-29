@@ -452,14 +452,15 @@ window.GUIA = {
           "lng": -46.688095
         },
         {
-          "name": "The Yard — Academia",
-          "dist": "833 m",
-          "walk": "10 min a pé",
-          "desc": "Foco em crossfit e HYROX, estrutura nova e bem avaliada, para quem quer treino de maior intensidade.",
-          "addr": "R. Cláudio Soares, 160",
-          "query": "Rua Cláudio Soares, 160, São Paulo, SP, Brasil",
-          "lat": -23.5691145,
-          "lng": -46.6935616
+          "name": "Bodytech (Shopping Iguatemi)",
+          "dist": "235 m",
+          "walk": "3 min a pé",
+          "desc": "Academia no 9º andar do Iguatemi, com vestiário amplo e lounge.",
+          "addr": "Av. Brig. Faria Lima, 2232 · seg–sex 6h–22h · sáb 8h–16h · dom 9h–14h",
+          "query": "Bodytech, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "highlight": true
         },
         {
           "name": "Bodytech (Av. Rebouças)",
@@ -595,15 +596,15 @@ window.GUIA = {
           "lng": -46.698645
         },
         {
-          "name": "Estação Fradique Coutinho",
+          "name": "Estação Faria Lima",
           "tag": "Metrô · Linha 4-Amarela",
-          "dist": "1,18 km",
-          "walk": "15 min a pé",
+          "dist": "1,05 km",
+          "walk": "13 min a pé",
           "desc": "A estação de metrô mais próxima do escritório.",
-          "addr": "Estação Fradique Coutinho, Rua dos Pinheiros",
-          "query": "Estação Fradique Coutinho, São Paulo, SP, Brasil",
-          "lat": -23.566389,
-          "lng": -46.6840567
+          "addr": "Largo da Batata · Linha 4-Amarela",
+          "query": "Estação Faria Lima, Linha 4-Amarela, São Paulo, SP, Brasil",
+          "lat": -23.5668879,
+          "lng": -46.6934101
         },
         {
           "name": "Estação Pinheiros",
