@@ -124,6 +124,32 @@
       estado.busca = semAcento(e.target.value.trim());
       aplicar();
     });
+
+    setasDosFiltros(box);
+  }
+
+  // As setas so existem quando a linha de filtros nao cabe inteira. No
+  // celular o CSS as esconde: la o dedo arrasta a linha direto.
+  function setasDosFiltros(box) {
+    var ant = document.getElementById("chips-ant");
+    var prox = document.getElementById("chips-prox");
+
+    function passo() { return Math.max(160, Math.round(box.clientWidth * 0.7)); }
+
+    function atualizar() {
+      var sobra = box.scrollWidth - box.clientWidth;
+      var cabe = sobra <= 2;
+      ant.hidden = prox.hidden = cabe;
+      if (cabe) return;
+      ant.disabled = box.scrollLeft <= 1;
+      prox.disabled = box.scrollLeft >= sobra - 1;
+    }
+
+    ant.addEventListener("click", function () { box.scrollBy({ left: -passo(), behavior: "smooth" }); });
+    prox.addEventListener("click", function () { box.scrollBy({ left: passo(), behavior: "smooth" }); });
+    box.addEventListener("scroll", atualizar, { passive: true });
+    window.addEventListener("resize", atualizar);
+    atualizar();
   }
 
   /* ---------- cartoes ---------- */

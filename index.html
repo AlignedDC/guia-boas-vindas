@@ -10,7 +10,7 @@
 <link rel="preload" href="fonts/Galatea-Medium.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
       integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
-<link rel="stylesheet" href="styles.css?v=30dac92c">
+<link rel="stylesheet" href="styles.css?v=2ac0db93">
 </head>
 <body>
 
@@ -35,7 +35,15 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
       <input type="search" id="busca" placeholder="Buscar" autocomplete="off">
     </label>
-    <div class="chips" id="chips"></div>
+    <div class="chips-wrap">
+      <button class="chips-nav" id="chips-ant" type="button" aria-label="Filtros anteriores">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      </button>
+      <div class="chips" id="chips"></div>
+      <button class="chips-nav" id="chips-prox" type="button" aria-label="Próximos filtros">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+      </button>
+    </div>
   </div>
 </div>
 
@@ -56,7 +64,7 @@
 
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
         integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-<script src="data.js?v=30dac92c"></script>
-<script src="app.js?v=30dac92c"></script>
+<script src="data.js?v=2ac0db93"></script>
+<script src="app.js?v=2ac0db93"></script>
 </body>
 </html>
