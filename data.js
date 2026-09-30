@@ -44,7 +44,7 @@ window.GUIA = {
       "key": "comer",
       "num": "01",
       "title": "Restaurantes & Padarias",
-      "intro": "Todas as opções abaixo ficam a menos de 10 minutos a pé.",
+      "intro": "Todas as opções abaixo ficam a menos de 15 minutos a pé.",
       "places": [
         {
           "name": "Café Árabe",
@@ -226,6 +226,36 @@ window.GUIA = {
           "query": "Pirajá, Shopping Eldorado, Avenida Rebouças, 3970, São Paulo, SP, Brasil",
           "lat": -23.5726463,
           "lng": -46.6958195
+        },
+        {
+          "name": "Donna Carolina",
+          "dist": "833 m",
+          "walk": "10 min a pé",
+          "desc": "Bar e restaurante de comida brasileira, self-service e à la carte. Muito movimentado no almoço — chegar antes das 12h evita fila. Feijoada às quartas.",
+          "addr": "R. dos Pinheiros, 1205",
+          "query": "Rua dos Pinheiros, 1205, São Paulo, SP, Brasil",
+          "lat": -23.5682097,
+          "lng": -46.6892838
+        },
+        {
+          "name": "Porto",
+          "dist": "847 m",
+          "walk": "11 min a pé",
+          "desc": "Pratos executivos bem servidos (parmegiana, massas), preço justo para a região. Boa opção de almoço rápido.",
+          "addr": "R. dos Pinheiros, 1387",
+          "query": "Rua dos Pinheiros, 1387, São Paulo, SP, Brasil",
+          "lat": -23.5681958,
+          "lng": -46.6910991
+        },
+        {
+          "name": "Trentino Restaurante",
+          "dist": "850 m",
+          "walk": "11 min a pé",
+          "desc": "Self-service completo, aberto apenas para almoço (seg–sex, até 15h). Fica lotado no horário de pico.",
+          "addr": "R. dos Pinheiros, 1397",
+          "query": "Rua dos Pinheiros, 1397, São Paulo, SP, Brasil",
+          "lat": -23.5681812,
+          "lng": -46.6911828
         }
       ]
     },
