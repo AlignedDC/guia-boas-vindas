@@ -28,6 +28,14 @@ visitante que volta carrega tudo novo, sem erro.
 Se esquecer, o sintoma não é um erro de build — é a página branca para quem já
 visitou antes, e você não vê nada disso numa aba anônima.
 
+## A ordem das categorias é calculada, não é a do arquivo
+
+O `app.js` ordena as seções por quantidade de estabelecimentos, da maior para
+a menor, antes de montar a página. Pedido do Gabriel em 2026-09-30. A ordem em
+que as seções aparecem no `places.json` só resolve empate — o `sort` do
+JavaScript é estável. Não tente reordenar mexendo no arquivo; mexa no
+`G.sections.sort` no topo do `app.js`.
+
 ## Ciclo de alteração
 
 ```powershell

@@ -373,6 +373,11 @@
 
   /* ---------- inicio ---------- */
 
+  // Categoria com mais estabelecimentos primeiro. Fica aqui, e nao na ordem
+  // do places.json, para continuar valendo sozinho quando o conteudo mudar.
+  // O sort do JS e estavel, entao empate mantem a ordem do arquivo.
+  G.sections.sort(function (a, b) { return b.places.length - a.places.length; });
+
   montarTopo();
   montarChips();
   montarLista();
