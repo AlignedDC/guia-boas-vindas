@@ -107,57 +107,46 @@
         },
         {
           "name": "Cozinha da Filoca",
-          "dist": "293 m",
-          "walk": "4 min",
+          "dist": "278 m",
+          "walk": "3 min",
           "desc": "Comida caseira numa casa reformada na Faria Lima. Abre só para o almoço.",
           "addr": "Av. Brig. Faria Lima, 1814 · seg–sex 11h30–15h",
           "query": "Cozinha da Filoca, Avenida Brigadeiro Faria Lima, 1814, São Paulo, SP, Brasil",
-          "lat": -23.5731225,
-          "lng": -46.6890484,
+          "lat": -23.5732295,
+          "lng": -46.689255,
           "approx": true
         },
         {
           "name": "Timbá Cozinha de Família",
-          "dist": "383 m",
+          "dist": "395 m",
           "walk": "5 min",
           "desc": "Comida caseira: você escolhe a proteína e os acompanhamentos — arroz, feijão, salada e fritas — são à vontade.",
           "addr": "Av. Brig. Faria Lima, 2379",
           "query": "Timbá Cozinha de Família, Avenida Brigadeiro Faria Lima, 2379, São Paulo, SP, Brasil",
-          "lat": -23.5780583,
-          "lng": -46.6869295,
+          "lat": -23.5778971,
+          "lng": -46.6866166,
           "approx": true
         },
         {
           "name": "Padaria Tupinambá",
-          "dist": "424 m",
+          "dist": "423 m",
           "walk": "5 min",
           "desc": "Padaria tradicional na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 1635",
           "query": "Padaria Tupinambá, Avenida Brigadeiro Faria Lima, 1635, São Paulo, SP, Brasil",
-          "lat": -23.5719367,
-          "lng": -46.6903441,
+          "lat": -23.5719414,
+          "lng": -46.6903528,
           "approx": true
         },
         {
           "name": "Barakah Cozinha Árabe",
-          "dist": "450 m",
+          "dist": "452 m",
           "walk": "6 min",
           "desc": "Buffet livre de cozinha árabe, com mais de 30 receitas e esfihas saindo do forno o tempo todo.",
           "addr": "Av. Brig. Faria Lima, 1605 · buffet seg–sex 11h30–15h · sáb e dom 12h–17h",
           "query": "Barakah Cozinha Árabe, Avenida Brigadeiro Faria Lima, 1605, São Paulo, SP, Brasil",
-          "lat": -23.5717379,
-          "lng": -46.6905612,
-          "approx": true
-        },
-        {
-          "name": "Cool Midas",
-          "dist": "522 m",
-          "walk": "7 min",
-          "desc": "Bistrô na Faria Lima; o filé américain é o prato mais citado nas avaliações.",
-          "addr": "Av. Brig. Faria Lima, 2517, loja 001",
-          "query": "Cool Midas, Avenida Brigadeiro Faria Lima, 2517, São Paulo, SP, Brasil",
-          "lat": -23.5788648,
-          "lng": -46.685879,
+          "lat": -23.5717069,
+          "lng": -46.6905041,
           "approx": true
         },
         {
@@ -169,6 +158,17 @@
           "query": "Nômade Bar e Restaurante, Avenida Rebouças, 3400, São Paulo, SP, Brasil",
           "lat": -23.5714201,
           "lng": -46.6918106
+        },
+        {
+          "name": "Cool Midas",
+          "dist": "524 m",
+          "walk": "7 min",
+          "desc": "Bistrô na Faria Lima; o filé américain é o prato mais citado nas avaliações.",
+          "addr": "Av. Brig. Faria Lima, 2517, loja 001",
+          "query": "Cool Midas, Avenida Brigadeiro Faria Lima, 2517, São Paulo, SP, Brasil",
+          "lat": -23.5788449,
+          "lng": -46.6858402,
+          "approx": true
         },
         {
           "name": "Dona Deôla",
@@ -272,13 +272,13 @@
         },
         {
           "name": "Café & Bistro",
-          "dist": "217 m",
+          "dist": "207 m",
           "walk": "3 min",
           "desc": "A cafeteria mais próxima do escritório. Boa opção para um café rápido ou reunião informal pela manhã.",
           "addr": "Av. Brig. Faria Lima, 1912, lj 125 · seg–sex 7h30–17h30",
           "query": "Avenida Brigadeiro Faria Lima, 1912, São Paulo, SP, Brasil",
-          "lat": -23.5739753,
-          "lng": -46.6886544,
+          "lat": -23.5740301,
+          "lng": -46.688761,
           "approx": true
         },
         {
@@ -342,13 +342,13 @@
         },
         {
           "name": "Carrefour Express",
-          "dist": "194 m",
+          "dist": "192 m",
           "walk": "2 min",
           "desc": "Loja de conveniência: padaria, hortifrúti, pratos prontos e bebidas.",
           "addr": "Av. Brig. Faria Lima, 1939",
           "query": "Carrefour Express, Avenida Brigadeiro Faria Lima, 1939, São Paulo, SP, Brasil",
-          "lat": -23.5742473,
-          "lng": -46.6886033,
+          "lat": -23.5742571,
+          "lng": -46.6886219,
           "approx": true
         },
         {
@@ -370,25 +370,25 @@
       "intro": "",
       "places": [
         {
-          "name": "Drogasil",
-          "dist": "153 m",
-          "walk": "2 min",
-          "desc": "Farmácia na Faria Lima.",
-          "addr": "Av. Brig. Faria Lima, 2127",
-          "query": "Drogasil, Avenida Brigadeiro Faria Lima, 2127, São Paulo, SP, Brasil",
-          "lat": -23.5761414,
-          "lng": -46.6882473,
-          "approx": true
-        },
-        {
           "name": "Drogaria São Paulo",
-          "dist": "171 m",
+          "dist": "157 m",
           "walk": "2 min",
           "desc": "Farmácia na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 2156",
           "query": "Drogaria São Paulo, Avenida Brigadeiro Faria Lima, 2156, São Paulo, SP, Brasil",
-          "lat": -23.5764335,
-          "lng": -46.6881924,
+          "lat": -23.576245,
+          "lng": -46.6882462,
+          "approx": true
+        },
+        {
+          "name": "Drogasil",
+          "dist": "159 m",
+          "walk": "2 min",
+          "desc": "Farmácia na Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 2127",
+          "query": "Drogasil, Avenida Brigadeiro Faria Lima, 2127, São Paulo, SP, Brasil",
+          "lat": -23.5762392,
+          "lng": -46.6882218,
           "approx": true
         }
       ]
@@ -401,13 +401,13 @@
       "places": [
         {
           "name": "Correios Faria Lima",
-          "dist": "134 m",
+          "dist": "159 m",
           "walk": "2 min",
           "desc": "Agência dos Correios na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 2070",
           "query": "Correios, Avenida Brigadeiro Faria Lima, 2070, São Paulo, SP, Brasil",
-          "lat": -23.5755671,
-          "lng": -46.6883552,
+          "lat": -23.5754486,
+          "lng": -46.6881249,
           "approx": true
         }
       ]
@@ -447,17 +447,6 @@
       "intro": "",
       "places": [
         {
-          "name": "HIIT Club — Health & Fitness",
-          "dist": "138 m",
-          "walk": "2 min",
-          "desc": "A mais próxima de todas. Treino personalizado em grupos pequenos, equipamento completo, staff bilíngue.",
-          "addr": "Av. Brig. Faria Lima, 2092 · seg–sex 6h–21h, sáb 9h–13h",
-          "query": "Avenida Brigadeiro Faria Lima, 2092, São Paulo, SP, Brasil",
-          "lat": -23.5757887,
-          "lng": -46.6883136,
-          "approx": true
-        },
-        {
           "name": "Espaço Andreia Monteiro — Pilates",
           "dist": "162 m",
           "walk": "2 min",
@@ -466,6 +455,17 @@
           "query": "Avenida Brigadeiro Faria Lima, 2128, São Paulo, SP, Brasil",
           "lat": -23.5759255,
           "lng": -46.688095
+        },
+        {
+          "name": "HIIT Club — Health & Fitness",
+          "dist": "169 m",
+          "walk": "2 min",
+          "desc": "A mais próxima de todas. Treino personalizado em grupos pequenos, equipamento completo, staff bilíngue.",
+          "addr": "Av. Brig. Faria Lima, 2092 · seg–sex 6h–21h, sáb 9h–13h",
+          "query": "Avenida Brigadeiro Faria Lima, 2092, São Paulo, SP, Brasil",
+          "lat": -23.5756356,
+          "lng": -46.6880107,
+          "approx": true
         },
         {
           "name": "Bodytech (Shopping Iguatemi)",
@@ -478,14 +478,14 @@
           "lng": -46.6880485
         },
         {
-          "name": "Bodytech (Av. Rebouças)",
-          "dist": "1,2 km",
-          "walk": "15 min",
-          "desc": "Rede premium com piscina, sauna e restaurante interno — mais distante, mas com estrutura completa para quem já é sócio.",
-          "addr": "Av. Rebouças",
-          "query": "Bodytech, Avenida Rebouças, São Paulo, SP, Brasil",
-          "lat": null,
-          "lng": null
+          "name": "Bodytech (Shopping Eldorado)",
+          "dist": "713 m",
+          "walk": "9 min",
+          "desc": "Unidade Pinheiros, dentro do Shopping Eldorado. Rede premium com piscina e sauna.",
+          "addr": "Av. Rebouças, 3970 · Shopping Eldorado",
+          "query": "Bodytech Pinheiros, Shopping Eldorado, Avenida Rebouças, 3970, São Paulo, SP, Brasil",
+          "lat": -23.5726463,
+          "lng": -46.6958195
         }
       ]
     },
@@ -497,13 +497,13 @@
       "places": [
         {
           "name": "CAL Center — GarageINN",
-          "dist": "217 m",
+          "dist": "207 m",
           "walk": "3 min",
           "desc": "É o mais perto, mas os funcionários avisam de demora recorrente (30–50 min) para liberar o carro e mau atendimento. Use com esse alerta em mente.",
           "addr": "Av. Brig. Faria Lima, 1912",
           "query": "Avenida Brigadeiro Faria Lima, 1912, São Paulo, SP, Brasil",
-          "lat": -23.5739753,
-          "lng": -46.6886544,
+          "lat": -23.5740301,
+          "lng": -46.688761,
           "approx": true
         },
         {
@@ -527,14 +527,15 @@
           "lng": -46.6896789
         },
         {
-          "name": "Estacionamento ECP (Esporte Clube Pinheiros)",
-          "dist": "491 m",
+          "name": "Bandeira Park Faria Lima",
+          "dist": "462 m",
           "walk": "6 min",
-          "desc": "É o mais próximo de todos, porém de uso restrito a associados do clube — não disponível ao público em geral.",
-          "addr": "Esporte Clube Pinheiros",
-          "query": "Esporte Clube Pinheiros, São Paulo, SP, Brasil",
-          "lat": -23.5800897,
-          "lng": -46.6891336
+          "desc": "Fica na mesma rua do Adega Santiago — a poucos números de distância. Bem avaliado, limpo e bem sinalizado, embora com preço um pouco mais alto.",
+          "addr": "R. Sampaio Vidal, 1173",
+          "query": "Rua Sampaio Vidal, 1173, São Paulo, SP, Brasil",
+          "lat": -23.5715406,
+          "lng": -46.6896789,
+          "approx": true
         },
         {
           "name": "AC Parking Estacionamentos",
@@ -545,16 +546,6 @@
           "query": "Rua Diogo Moreira, 247, São Paulo, SP, Brasil",
           "lat": -23.5706331,
           "lng": -46.6933881
-        },
-        {
-          "name": "Bandeira Park Faria Lima",
-          "dist": "692 m",
-          "walk": "9 min",
-          "desc": "Fica na mesma rua do Adega Santiago — a poucos números de distância. Bem avaliado, limpo e bem sinalizado, embora com preço um pouco mais alto.",
-          "addr": "R. Sampaio Vidal, 1173",
-          "query": "Rua Sampaio Vidal, 1173, São Paulo, SP, Brasil",
-          "lat": -23.5700711,
-          "lng": -46.6867539
         },
         {
           "name": "And Park / Valet Gabriel",
