@@ -349,8 +349,26 @@ a { color: inherit; }
 
 @media (max-width: 720px) {
   .hero { padding: 54px 0 44px; }
-  .controls { top: 63px; }
+  .controls { top: 63px; padding: 10px 0; }
   .search { flex: 1 1 100%; }
+
+  /* No celular os filtros quebravam em cinco linhas e comiam 39% da tela.
+     Uma linha so, rolando na horizontal. O .shell sangra ate a borda para
+     o ultimo chip nao parecer cortado no meio do padding. */
+  .controls .shell { gap: 10px; }
+  .chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    -webkit-overflow-scrolling: touch;
+    width: 100vw;
+    margin-inline: calc((100vw - min(92vw, var(--shell))) / -2);
+    padding-inline: calc((100vw - min(92vw, var(--shell))) / 2);
+    scroll-padding-inline: calc((100vw - min(92vw, var(--shell))) / 2);
+  }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: 0 0 auto; }
   .card-top { flex-direction: column; gap: 4px; }
   .site-header .shell { padding: 12px 0; }
   .brand img { height: 28px; }
