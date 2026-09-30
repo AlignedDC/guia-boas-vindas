@@ -46,12 +46,17 @@
     s.setAttribute("fill", "none");
     s.setAttribute("stroke", "currentColor");
     s.setAttribute("stroke-width", "2");
+    s.setAttribute("stroke-linecap", "round");
+    s.setAttribute("stroke-linejoin", "round");
     s.innerHTML = svg;
     return s;
   }
 
   var SVG_PIN = '<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/>';
   var SVG_LISTA = '<path d="M9 20l-6-3V4l6 3m0 13l6-3m-6 3V7m6 10l6 3V7l-6-3m0 13V4m0 0L9 7"/>';
+  var SVG_DIST = '<path d="M4 12h16"/><path d="m7.5 7.5-4.5 4.5 4.5 4.5"/><path d="m16.5 7.5 4.5 4.5-4.5 4.5"/>';
+  var SVG_ANDA = '<circle cx="13.5" cy="4" r="2"/><path d="M12.5 7.5 10 12.5l2.5 2 1 6"/>' +
+                 '<path d="m12.5 14.5-3.5 5.5"/><path d="M10.5 9.5 7 11.5"/><path d="m14.5 9.5 3 1.5 1 3.5"/>';
 
   /* ---------- cabecalho ---------- */
 
@@ -125,7 +130,6 @@
   function montarCartao(p, secao) {
     var card = el("article", "card");
     card.style.setProperty("--cat", COR[secao.key]);
-    if (p.highlight) card.classList.add("highlight");
     if (p.warn) card.classList.add("warn");
 
     if (p.tag) {
@@ -135,8 +139,22 @@
 
     var top = el("div", "card-top");
     top.appendChild(el("h3", null, p.name));
-    var dist = [p.dist, p.walk].filter(Boolean).join(" · ");
-    if (dist) top.appendChild(el("span", "dist", "≈ " + dist));
+    if (p.dist || p.walk) {
+      var medidas = el("span", "dist");
+      if (p.dist) {
+        var a = el("span");
+        a.appendChild(icone(SVG_DIST));
+        a.appendChild(document.createTextNode(p.dist));
+        medidas.appendChild(a);
+      }
+      if (p.walk) {
+        var c = el("span");
+        c.appendChild(icone(SVG_ANDA));
+        c.appendChild(document.createTextNode(p.walk));
+        medidas.appendChild(c);
+      }
+      top.appendChild(medidas);
+    }
     card.appendChild(top);
 
     card.appendChild(el("p", "desc", p.desc));
@@ -162,7 +180,6 @@
       sec.id = "sec-" + s.key;
 
       var head = el("div", "section-head");
-      head.appendChild(el("span", "section-num", s.num));
       head.appendChild(el("h2", null, s.title));
       sec.appendChild(head);
       if (s.intro) sec.appendChild(el("p", "intro", s.intro));

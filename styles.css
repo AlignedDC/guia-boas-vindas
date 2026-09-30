@@ -211,7 +211,8 @@ a { color: inherit; }
 }
 .section-maps {
   display: inline-flex; align-items: center; gap: 8px;
-  margin: 0 0 22px;
+  /* margem a direita porque uma secao pode ter mais de uma lista */
+  margin: 0 22px 22px 0;
   font-size: 14px;
   color: var(--lilas);
   text-decoration: none;
@@ -226,7 +227,8 @@ a { color: inherit; }
 .card {
   position: relative;
   border: 1px solid var(--line);
-  border-left: 3px solid transparent;
+  /* a barra da esquerda e o indicador de categoria — mesma cor do pino */
+  border-left: 3px solid var(--cat, var(--lilas));
   border-radius: var(--radius);
   background: var(--card);
   padding: 20px 22px;
@@ -236,15 +238,21 @@ a { color: inherit; }
 .card:hover, .card.is-active {
   background: var(--card-hover);
   border-color: rgba(255,255,255,.22);
+  /* o atalho acima apagaria a barra de categoria; devolve ela aqui */
+  border-left-color: var(--cat, var(--lilas));
   transform: translateX(2px);
 }
-.card.is-active { border-left-color: var(--accent); }
-.card.highlight { border-left-color: var(--cat, var(--lilas)); }
 .card.warn { border-left-color: var(--laranja); }
+.card.is-active { border-left-color: var(--accent); }
 
 .card-top { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; }
 .card h3 { font-size: 19px; font-weight: 700; margin: 0; line-height: 1.25; }
-.card .dist { color: var(--accent); font-size: 14px; font-weight: 500; white-space: nowrap; }
+.card .dist {
+  display: inline-flex; align-items: center; gap: 12px;
+  color: var(--accent); font-size: 14px; font-weight: 500; white-space: nowrap;
+}
+.card .dist > span { display: inline-flex; align-items: center; gap: 5px; }
+.card .dist svg { width: 15px; height: 15px; flex: none; opacity: .85; }
 .card .desc { color: rgba(255,255,255,.78); font-weight: 300; margin: 9px 0 0; }
 .card .addr { color: var(--text-faint); font-size: 14px; margin: 9px 0 0; }
 .card .tag {
