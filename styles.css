@@ -145,8 +145,20 @@ a { color: inherit; }
 .search input:focus { outline: none; border-color: var(--lilas); }
 .search svg { position: absolute; left: 13px; top: 13px; width: 16px; height: 16px; opacity: .45; }
 
-.chips { display: flex; gap: 8px; flex-wrap: wrap; }
+/* Uma linha so, rolando na horizontal, em qualquer largura. Sem isso os
+   filtros quebravam em varias linhas e comiam a tela. */
+.chips {
+  display: flex; gap: 8px;
+  flex: 1 1 0; min-width: 0;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+.chips::-webkit-scrollbar { display: none; }
 .chip {
+  flex: 0 0 auto;
   display: inline-flex; align-items: center; gap: 7px;
   padding: 9px 15px;
   border-radius: 999px;
@@ -242,10 +254,9 @@ a { color: inherit; }
   border-left-color: var(--cat, var(--lilas));
   transform: translateX(2px);
 }
-.card.warn { border-left-color: var(--laranja); }
 .card.is-active { border-left-color: var(--accent); }
 
-.card-top { display: flex; align-items: baseline; justify-content: space-between; gap: 18px; }
+.card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
 .card h3 { font-size: 19px; font-weight: 700; margin: 0; line-height: 1.25; }
 .card .dist {
   display: inline-flex; align-items: center; gap: 12px;
@@ -255,6 +266,38 @@ a { color: inherit; }
 .card .dist svg { width: 15px; height: 15px; flex: none; opacity: .85; }
 .card .desc { color: rgba(255,255,255,.78); font-weight: 300; margin: 9px 0 0; }
 .card .addr { color: var(--text-faint); font-size: 14px; margin: 9px 0 0; }
+
+/* botao de informacao — escondido no desktop, onde a descricao ja aparece */
+.card .info {
+  display: none;
+  flex: none;
+  padding: 0; margin: 2px 0 0;
+  width: 26px; height: 26px;
+  align-items: center; justify-content: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-dim);
+  cursor: pointer;
+  transition: color .16s ease, border-color .16s ease;
+}
+.card .info svg { width: 15px; height: 15px; }
+.card.open .info { color: var(--cat, var(--lilas)); border-color: currentColor; }
+
+.card-foto {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  border-radius: var(--radius);
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+/* rodape do cartao: distancia a esquerda, link do Maps a direita */
+.card-foot {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; margin-top: 14px;
+}
 .card .tag {
   display: inline-block;
   padding: 3px 10px;
@@ -268,7 +311,6 @@ a { color: inherit; }
 }
 .card .go {
   display: inline-flex; align-items: center; gap: 6px;
-  margin-top: 13px;
   font-size: 14px;
   color: var(--lilas);
   text-decoration: none;
@@ -365,19 +407,24 @@ a { color: inherit; }
      o ultimo chip nao parecer cortado no meio do padding. */
   .controls .shell { gap: 10px; }
   .chips {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
-    -webkit-overflow-scrolling: touch;
+    flex: 1 1 100%;
     width: 100vw;
     margin-inline: calc((100vw - min(92vw, var(--shell))) / -2);
     padding-inline: calc((100vw - min(92vw, var(--shell))) / 2);
     scroll-padding-inline: calc((100vw - min(92vw, var(--shell))) / 2);
   }
-  .chips::-webkit-scrollbar { display: none; }
-  .chip { flex: 0 0 auto; }
-  .card-top { flex-direction: column; gap: 4px; }
+
+  /* No celular a descricao sai da visao padrao e volta no painel que
+     desliza ao tocar no (i). grid-template-rows 0fr->1fr anima a altura
+     sem precisar de max-height chutado. */
+  .card .info { display: inline-flex; }
+  .card-detail {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows .3s ease;
+  }
+  .card-detail > div { overflow: hidden; }
+  .card.open .card-detail { grid-template-rows: 1fr; }
   .site-header .shell { padding: 12px 0; }
   .brand img { height: 28px; }
 }

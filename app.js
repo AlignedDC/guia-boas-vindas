@@ -55,6 +55,7 @@
   var SVG_PIN = '<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 1118 0z"/><circle cx="12" cy="10" r="3"/>';
   var SVG_LISTA = '<path d="M9 20l-6-3V4l6 3m0 13l6-3m-6 3V7m6 10l6 3V7l-6-3m0 13V4m0 0L9 7"/>';
   var SVG_DIST = '<path d="M4 12h16"/><path d="m7.5 7.5-4.5 4.5 4.5 4.5"/><path d="m16.5 7.5 4.5 4.5-4.5 4.5"/>';
+  var SVG_INFO = '<circle cx="12" cy="12" r="9"/><path d="M12 16.5v-5"/><path d="M12 8h.01"/>';
   var SVG_ANDA = '<circle cx="13.5" cy="4" r="2"/><path d="M12.5 7.5 10 12.5l2.5 2 1 6"/>' +
                  '<path d="m12.5 14.5-3.5 5.5"/><path d="M10.5 9.5 7 11.5"/><path d="m14.5 9.5 3 1.5 1 3.5"/>';
 
@@ -130,35 +131,58 @@
   function montarCartao(p, secao) {
     var card = el("article", "card");
     card.style.setProperty("--cat", COR[secao.key]);
-    if (p.warn) card.classList.add("warn");
 
-    if (p.tag) {
-      var t = el("span", "tag", p.tag);
-      card.appendChild(t);
-    }
+    if (p.tag) card.appendChild(el("span", "tag", p.tag));
 
     var top = el("div", "card-top");
     top.appendChild(el("h3", null, p.name));
-    if (p.dist || p.walk) {
-      var medidas = el("span", "dist");
-      if (p.dist) {
-        var a = el("span");
-        a.appendChild(icone(SVG_DIST));
-        a.appendChild(document.createTextNode(p.dist));
-        medidas.appendChild(a);
-      }
-      if (p.walk) {
-        var c = el("span");
-        c.appendChild(icone(SVG_ANDA));
-        c.appendChild(document.createTextNode(p.walk));
-        medidas.appendChild(c);
-      }
-      top.appendChild(medidas);
-    }
+
+    // Botao de informacao: so aparece no celular (CSS). La a descricao sai da
+    // visao padrao do cartao e volta neste painel, que desliza ao abrir.
+    var info = el("button", "info");
+    info.type = "button";
+    info.setAttribute("aria-expanded", "false");
+    info.setAttribute("aria-label", "Detalhes de " + p.name);
+    info.appendChild(icone(SVG_INFO));
+    info.addEventListener("click", function (e) {
+      e.stopPropagation();
+      var aberto = card.classList.toggle("open");
+      info.setAttribute("aria-expanded", aberto ? "true" : "false");
+    });
+    top.appendChild(info);
     card.appendChild(top);
 
-    card.appendChild(el("p", "desc", p.desc));
+    var detalhe = el("div", "card-detail");
+    var dentro = el("div");
+    dentro.appendChild(el("p", "desc", p.desc));
+    if (p.photo) {
+      var img = el("img", "card-foto");
+      img.src = p.photo;
+      img.alt = p.name;
+      img.loading = "lazy";
+      dentro.appendChild(img);
+    }
+    detalhe.appendChild(dentro);
+    card.appendChild(detalhe);
+
     if (p.addr) card.appendChild(el("p", "addr", p.addr));
+
+    var pe = el("div", "card-foot");
+
+    var medidas = el("span", "dist");
+    if (p.dist) {
+      var a = el("span");
+      a.appendChild(icone(SVG_DIST));
+      a.appendChild(document.createTextNode(p.dist));
+      medidas.appendChild(a);
+    }
+    if (p.walk) {
+      var c = el("span");
+      c.appendChild(icone(SVG_ANDA));
+      c.appendChild(document.createTextNode(p.walk));
+      medidas.appendChild(c);
+    }
+    pe.appendChild(medidas);
 
     var go = el("a", "go");
     go.href = linkMaps(p);
@@ -167,7 +191,9 @@
     go.appendChild(icone(SVG_PIN));
     go.appendChild(document.createTextNode("Ver no Maps"));
     go.addEventListener("click", function (e) { e.stopPropagation(); });
-    card.appendChild(go);
+    pe.appendChild(go);
+
+    card.appendChild(pe);
 
     return card;
   }

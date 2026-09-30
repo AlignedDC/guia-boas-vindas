@@ -503,7 +503,6 @@ window.GUIA = {
           "desc": "É o mais perto, mas os funcionários avisam de demora recorrente (30–50 min) para liberar o carro e mau atendimento. Use com esse alerta em mente.",
           "addr": "Av. Brig. Faria Lima, 1912",
           "query": "Avenida Brigadeiro Faria Lima, 1912, São Paulo, SP, Brasil",
-          "warn": true,
           "lat": -23.5739753,
           "lng": -46.6886544,
           "approx": true
