@@ -47,209 +47,249 @@
       "places": [
         {
           "name": "Café Árabe",
-          "dist": "194 m",
-          "walk": "2 min",
+          "dist": "213 m",
+          "walk": "3 min",
           "desc": "Cozinha árabe na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 1987",
           "query": "Café Árabe, Avenida Brigadeiro Faria Lima, 1987, São Paulo, SP, Brasil",
           "lat": -23.5744975,
-          "lng": -46.6882787
-        },
-        {
-          "name": "Frevo (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
-          "desc": "Casa de beirutes desde 1956, no piso térreo do Iguatemi.",
-          "addr": "Av. Brig. Faria Lima, 2232 · todos os dias 11h–23h",
-          "query": "Frevo, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
-        },
-        {
-          "name": "Mania de Churrasco (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
-          "desc": "Cortes nobres, no mezanino do Iguatemi.",
-          "addr": "Av. Brig. Faria Lima, 2232 · mezanino",
-          "query": "Mania de Churrasco, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
-        },
-        {
-          "name": "Almanara (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
-          "desc": "Culinária árabe, no piso Faria Lima do Iguatemi.",
-          "addr": "Av. Brig. Faria Lima, 2232 · piso Faria Lima",
-          "query": "Almanara, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
-        },
-        {
-          "name": "Padoca do Maní (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
-          "desc": "Pães e cafés, no piso térreo do Iguatemi.",
-          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
-          "query": "Padoca do Maní, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
+          "lng": -46.6882787,
+          "m_pe": 213,
+          "m_reta": 194
         },
         {
           "name": "A Quinta do Marquês",
-          "dist": "273 m",
-          "walk": "3 min",
+          "dist": "364 m",
+          "walk": "5 min",
           "desc": "Padaria e restaurante: comida por quilo no almoço e pizza de forno a lenha. Também aparece em Padarias & Cafeterias.",
           "addr": "Av. Brig. Faria Lima, 1853",
           "query": "A Quinta do Marquês, Avenida Brigadeiro Faria Lima, 1853, São Paulo, SP, Brasil",
           "lat": -23.5733809,
-          "lng": -46.6887661
+          "lng": -46.6887661,
+          "m_pe": 364,
+          "m_reta": 273
         },
         {
           "name": "Cozinha da Filoca",
-          "dist": "278 m",
-          "walk": "3 min",
+          "dist": "385 m",
+          "walk": "5 min",
           "desc": "Comida caseira numa casa reformada na Faria Lima. Abre só para o almoço.",
           "addr": "Av. Brig. Faria Lima, 1814 · seg–sex 11h30–15h",
           "query": "Cozinha da Filoca, Avenida Brigadeiro Faria Lima, 1814, São Paulo, SP, Brasil",
           "lat": -23.5732295,
           "lng": -46.689255,
-          "approx": true
-        },
-        {
-          "name": "Timbá Cozinha de Família",
-          "dist": "395 m",
-          "walk": "5 min",
-          "desc": "Comida caseira: você escolhe a proteína e os acompanhamentos — arroz, feijão, salada e fritas — são à vontade.",
-          "addr": "Av. Brig. Faria Lima, 2379",
-          "query": "Timbá Cozinha de Família, Avenida Brigadeiro Faria Lima, 2379, São Paulo, SP, Brasil",
-          "lat": -23.5778971,
-          "lng": -46.6866166,
-          "approx": true
+          "approx": true,
+          "m_pe": 385,
+          "m_reta": 278
         },
         {
           "name": "Padaria Tupinambá",
-          "dist": "423 m",
-          "walk": "5 min",
+          "dist": "543 m",
+          "walk": "7 min",
           "desc": "Padaria tradicional na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 1635",
           "query": "Padaria Tupinambá, Avenida Brigadeiro Faria Lima, 1635, São Paulo, SP, Brasil",
           "lat": -23.5719414,
           "lng": -46.6903528,
-          "approx": true
+          "approx": true,
+          "m_pe": 543,
+          "m_reta": 423
+        },
+        {
+          "name": "Timbá Cozinha de Família",
+          "dist": "544 m",
+          "walk": "7 min",
+          "desc": "Comida caseira: você escolhe a proteína e os acompanhamentos — arroz, feijão, salada e fritas — são à vontade.",
+          "addr": "Av. Brig. Faria Lima, 2379",
+          "query": "Timbá Cozinha de Família, Avenida Brigadeiro Faria Lima, 2379, São Paulo, SP, Brasil",
+          "lat": -23.5778971,
+          "lng": -46.6866166,
+          "approx": true,
+          "m_pe": 544,
+          "m_reta": 395
+        },
+        {
+          "name": "Frevo (Shopping Iguatemi)",
+          "dist": "567 m",
+          "walk": "7 min",
+          "desc": "Casa de beirutes desde 1956, no piso térreo do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · todos os dias 11h–23h",
+          "query": "Frevo, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
+        },
+        {
+          "name": "Mania de Churrasco (Shopping Iguatemi)",
+          "dist": "567 m",
+          "walk": "7 min",
+          "desc": "Cortes nobres, no mezanino do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · mezanino",
+          "query": "Mania de Churrasco, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
+        },
+        {
+          "name": "Almanara (Shopping Iguatemi)",
+          "dist": "567 m",
+          "walk": "7 min",
+          "desc": "Culinária árabe, no piso Faria Lima do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso Faria Lima",
+          "query": "Almanara, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
+        },
+        {
+          "name": "Padoca do Maní (Shopping Iguatemi)",
+          "dist": "567 m",
+          "walk": "7 min",
+          "desc": "Pães e cafés, no piso térreo do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
+          "query": "Padoca do Maní, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
         },
         {
           "name": "Barakah Cozinha Árabe",
-          "dist": "452 m",
-          "walk": "6 min",
+          "dist": "573 m",
+          "walk": "7 min",
           "desc": "Buffet livre de cozinha árabe, com mais de 30 receitas e esfihas saindo do forno o tempo todo.",
           "addr": "Av. Brig. Faria Lima, 1605 · buffet seg–sex 11h30–15h · sáb e dom 12h–17h",
           "query": "Barakah Cozinha Árabe, Avenida Brigadeiro Faria Lima, 1605, São Paulo, SP, Brasil",
           "lat": -23.5717069,
           "lng": -46.6905041,
-          "approx": true
-        },
-        {
-          "name": "Nômade Bar e Restaurante",
-          "dist": "523 m",
-          "walk": "7 min",
-          "desc": "Cozinha contemporânea com influências mediterrânea, latina e oriental — petiscos para dividir, grelhados e coquetelaria autoral.",
-          "addr": "Av. Rebouças, 3400",
-          "query": "Nômade Bar e Restaurante, Avenida Rebouças, 3400, São Paulo, SP, Brasil",
-          "lat": -23.5714201,
-          "lng": -46.6918106
-        },
-        {
-          "name": "Cool Midas",
-          "dist": "524 m",
-          "walk": "7 min",
-          "desc": "Bistrô na Faria Lima; o filé américain é o prato mais citado nas avaliações.",
-          "addr": "Av. Brig. Faria Lima, 2517, loja 001",
-          "query": "Cool Midas, Avenida Brigadeiro Faria Lima, 2517, São Paulo, SP, Brasil",
-          "lat": -23.5788449,
-          "lng": -46.6858402,
-          "approx": true
+          "approx": true,
+          "m_pe": 573,
+          "m_reta": 452
         },
         {
           "name": "Dona Deôla",
-          "dist": "547 m",
+          "dist": "604 m",
           "walk": "7 min",
           "desc": "Padaria e confeitaria, unidade no edifício da Rua Hungria.",
           "addr": "R. Hungria, 1100",
           "query": "Dona Deôla, Rua Hungria, 1100, São Paulo, SP, Brasil",
           "lat": -23.5778748,
-          "lng": -46.6944739
+          "lng": -46.6944739,
+          "m_pe": 604,
+          "m_reta": 547
+        },
+        {
+          "name": "Cool Midas",
+          "dist": "692 m",
+          "walk": "9 min",
+          "desc": "Bistrô na Faria Lima; o filé américain é o prato mais citado nas avaliações.",
+          "addr": "Av. Brig. Faria Lima, 2517, loja 001",
+          "query": "Cool Midas, Avenida Brigadeiro Faria Lima, 2517, São Paulo, SP, Brasil",
+          "lat": -23.5788449,
+          "lng": -46.6858402,
+          "approx": true,
+          "m_pe": 692,
+          "m_reta": 524
+        },
+        {
+          "name": "Nômade Bar e Restaurante",
+          "dist": "760 m",
+          "walk": "10 min",
+          "desc": "Cozinha contemporânea com influências mediterrânea, latina e oriental — petiscos para dividir, grelhados e coquetelaria autoral.",
+          "addr": "Av. Rebouças, 3400",
+          "query": "Nômade Bar e Restaurante, Avenida Rebouças, 3400, São Paulo, SP, Brasil",
+          "lat": -23.5714201,
+          "lng": -46.6918106,
+          "m_pe": 760,
+          "m_reta": 523
+        },
+        {
+          "name": "Restaurante Capim Santo",
+          "dist": "920 m",
+          "walk": "12 min",
+          "desc": "Opção mais sofisticada para almoços de negócios ou happy hour — jardim interno na Av. Faria Lima.",
+          "addr": "Av. Brig. Faria Lima, 2705",
+          "query": "Avenida Brigadeiro Faria Lima, 2705, São Paulo, SP, Brasil",
+          "lat": -23.5799635,
+          "lng": -46.6844479,
+          "m_pe": 920,
+          "m_reta": 713
+        },
+        {
+          "name": "Porto",
+          "dist": "1,09 km",
+          "walk": "14 min",
+          "desc": "Pratos executivos bem servidos (parmegiana, massas), preço justo para a região. Boa opção de almoço rápido.",
+          "addr": "R. dos Pinheiros, 1387",
+          "query": "Rua dos Pinheiros, 1387, São Paulo, SP, Brasil",
+          "lat": -23.5681958,
+          "lng": -46.6910991,
+          "m_pe": 1093,
+          "m_reta": 847
         },
         {
           "name": "PÃO Padaria Artesanal Orgânica",
-          "dist": "697 m",
-          "walk": "9 min",
+          "dist": "1,10 km",
+          "walk": "15 min",
           "desc": "Fermentação natural e ingredientes orgânicos desde 2007. Buffet de brunch nos fins de semana.",
           "addr": "R. Dr. Mário Ferraz, 213 · seg–qui 7h30–19h · sáb e dom 8h–16h",
           "query": "PÃO Padaria Artesanal Orgânica, Rua Doutor Mário Ferraz, 213, São Paulo, SP, Brasil",
           "lat": -23.5815674,
           "lng": -46.6872733,
-          "approx": true
-        },
-        {
-          "name": "Restaurante Capim Santo",
-          "dist": "713 m",
-          "walk": "9 min",
-          "desc": "Opção mais sofisticada para almoços de negócios ou happy hour — jardim interno na Av. Faria Lima.",
-          "addr": "Av. Brig. Faria Lima, 2705",
-          "query": "Avenida Brigadeiro Faria Lima, 2705, São Paulo, SP, Brasil",
-          "lat": -23.5799635,
-          "lng": -46.6844479
-        },
-        {
-          "name": "Pecorino Bar & Trattoria (Shopping Eldorado)",
-          "dist": "713 m",
-          "walk": "9 min",
-          "desc": "Cantina italiana em versão moderna — massas, risotos e pizzas.",
-          "addr": "Av. Rebouças, 3970 · Shopping Eldorado",
-          "query": "Pecorino Bar e Trattoria, Shopping Eldorado, Avenida Rebouças, 3970, São Paulo, SP, Brasil",
-          "lat": -23.5726463,
-          "lng": -46.6958195
-        },
-        {
-          "name": "Pirajá (Shopping Eldorado)",
-          "dist": "713 m",
-          "walk": "9 min",
-          "desc": "Boteco de inspiração carioca — croquetes, caldinho de feijão e chope bem tirado.",
-          "addr": "Av. Rebouças, 3970 · Shopping Eldorado",
-          "query": "Pirajá, Shopping Eldorado, Avenida Rebouças, 3970, São Paulo, SP, Brasil",
-          "lat": -23.5726463,
-          "lng": -46.6958195
-        },
-        {
-          "name": "Donna Carolina",
-          "dist": "833 m",
-          "walk": "10 min",
-          "desc": "Bar e restaurante de comida brasileira, self-service e à la carte. Muito movimentado no almoço — chegar antes das 12h evita fila. Feijoada às quartas.",
-          "addr": "R. dos Pinheiros, 1205",
-          "query": "Rua dos Pinheiros, 1205, São Paulo, SP, Brasil",
-          "lat": -23.5682097,
-          "lng": -46.6892838
-        },
-        {
-          "name": "Porto",
-          "dist": "847 m",
-          "walk": "11 min",
-          "desc": "Pratos executivos bem servidos (parmegiana, massas), preço justo para a região. Boa opção de almoço rápido.",
-          "addr": "R. dos Pinheiros, 1387",
-          "query": "Rua dos Pinheiros, 1387, São Paulo, SP, Brasil",
-          "lat": -23.5681958,
-          "lng": -46.6910991
+          "approx": true,
+          "m_pe": 1101,
+          "m_reta": 697
         },
         {
           "name": "Trentino Restaurante",
-          "dist": "850 m",
-          "walk": "11 min",
+          "dist": "1,10 km",
+          "walk": "14 min",
           "desc": "Self-service completo, aberto apenas para almoço (seg–sex, até 15h). Fica lotado no horário de pico.",
           "addr": "R. dos Pinheiros, 1397",
           "query": "Rua dos Pinheiros, 1397, São Paulo, SP, Brasil",
           "lat": -23.5681812,
-          "lng": -46.6911828
+          "lng": -46.6911828,
+          "m_pe": 1102,
+          "m_reta": 850
+        },
+        {
+          "name": "Pecorino Bar & Trattoria (Shopping Eldorado)",
+          "dist": "1,14 km",
+          "walk": "14 min",
+          "desc": "Cantina italiana em versão moderna — massas, risotos e pizzas.",
+          "addr": "Av. Rebouças, 3970 · Shopping Eldorado",
+          "query": "Pecorino Bar e Trattoria, Shopping Eldorado, Avenida Rebouças, 3970, São Paulo, SP, Brasil",
+          "lat": -23.5726463,
+          "lng": -46.6958195,
+          "m_pe": 1139,
+          "m_reta": 713
+        },
+        {
+          "name": "Pirajá (Shopping Eldorado)",
+          "dist": "1,14 km",
+          "walk": "14 min",
+          "desc": "Boteco de inspiração carioca — croquetes, caldinho de feijão e chope bem tirado.",
+          "addr": "Av. Rebouças, 3970 · Shopping Eldorado",
+          "query": "Pirajá, Shopping Eldorado, Avenida Rebouças, 3970, São Paulo, SP, Brasil",
+          "lat": -23.5726463,
+          "lng": -46.6958195,
+          "m_pe": 1139,
+          "m_reta": 713
+        },
+        {
+          "name": "Donna Carolina",
+          "dist": "1,19 km",
+          "walk": "15 min",
+          "desc": "Bar e restaurante de comida brasileira, self-service e à la carte. Muito movimentado no almoço — chegar antes das 12h evita fila. Feijoada às quartas.",
+          "addr": "R. dos Pinheiros, 1205",
+          "query": "Rua dos Pinheiros, 1205, São Paulo, SP, Brasil",
+          "lat": -23.5682097,
+          "lng": -46.6892838,
+          "m_pe": 1190,
+          "m_reta": 833
         }
       ]
     },
@@ -261,65 +301,77 @@
       "places": [
         {
           "name": "Mokaflor Café",
-          "dist": "158 m",
-          "walk": "2 min",
+          "dist": "222 m",
+          "walk": "3 min",
           "desc": "Café de rua na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 2136 · seg–sex 8h–18h · sáb 9h–15h",
           "query": "Mokaflor Café e Tabacaria, Avenida Brigadeiro Faria Lima, 2136, São Paulo, SP, Brasil",
           "lat": -23.576232,
           "lng": -46.6882303,
-          "approx": true
+          "approx": true,
+          "m_pe": 222,
+          "m_reta": 158
         },
         {
           "name": "Café & Bistro",
-          "dist": "207 m",
-          "walk": "3 min",
+          "dist": "282 m",
+          "walk": "4 min",
           "desc": "A cafeteria mais próxima do escritório. Boa opção para um café rápido ou reunião informal pela manhã.",
           "addr": "Av. Brig. Faria Lima, 1912, lj 125 · seg–sex 7h30–17h30",
           "query": "Avenida Brigadeiro Faria Lima, 1912, São Paulo, SP, Brasil",
           "lat": -23.5740301,
           "lng": -46.688761,
-          "approx": true
-        },
-        {
-          "name": "Café Zinn (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
-          "desc": "Cafeteria no piso térreo do Iguatemi.",
-          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
-          "query": "Café Zinn, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
-        },
-        {
-          "name": "Kopenhagen (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
-          "desc": "Cafeteria e confeitaria no piso térreo do Iguatemi.",
-          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
-          "query": "Kopenhagen, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
-        },
-        {
-          "name": "Pati Piva (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
-          "desc": "Confeitaria e café no piso superior do Iguatemi.",
-          "addr": "Av. Brig. Faria Lima, 2232 · piso superior",
-          "query": "Pati Piva, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
-          "lat": -23.5771992,
-          "lng": -46.6880485
+          "approx": true,
+          "m_pe": 282,
+          "m_reta": 207
         },
         {
           "name": "The Coffee",
-          "dist": "270 m",
-          "walk": "3 min",
+          "dist": "358 m",
+          "walk": "5 min",
           "desc": "Café de balcão, de inspiração japonesa — pegar e levar.",
           "addr": "Av. Brig. Faria Lima, 2237 · seg–sex 7h30–18h30",
           "query": "The Coffee, Avenida Brigadeiro Faria Lima, 2237, São Paulo, SP, Brasil",
           "lat": -23.5764218,
-          "lng": -46.6871348
+          "lng": -46.6871348,
+          "m_pe": 358,
+          "m_reta": 270
+        },
+        {
+          "name": "Café Zinn (Shopping Iguatemi)",
+          "dist": "567 m",
+          "walk": "7 min",
+          "desc": "Cafeteria no piso térreo do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
+          "query": "Café Zinn, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
+        },
+        {
+          "name": "Kopenhagen (Shopping Iguatemi)",
+          "dist": "567 m",
+          "walk": "7 min",
+          "desc": "Cafeteria e confeitaria no piso térreo do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso térreo",
+          "query": "Kopenhagen, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
+        },
+        {
+          "name": "Pati Piva (Shopping Iguatemi)",
+          "dist": "567 m",
+          "walk": "7 min",
+          "desc": "Confeitaria e café no piso superior do Iguatemi.",
+          "addr": "Av. Brig. Faria Lima, 2232 · piso superior",
+          "query": "Pati Piva, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
+          "lat": -23.5771992,
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
         }
       ]
     },
@@ -331,35 +383,41 @@
       "places": [
         {
           "name": "Hirota Food Express",
-          "dist": "152 m",
+          "dist": "167 m",
           "walk": "2 min",
           "desc": "Supermercado de rua na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 1999",
           "query": "Hirota Food Express, Avenida Brigadeiro Faria Lima, 1999, São Paulo, SP, Brasil",
           "lat": -23.5748518,
           "lng": -46.6884897,
-          "approx": true
+          "approx": true,
+          "m_pe": 167,
+          "m_reta": 152
         },
         {
           "name": "Carrefour Express",
-          "dist": "192 m",
-          "walk": "2 min",
+          "dist": "254 m",
+          "walk": "3 min",
           "desc": "Loja de conveniência: padaria, hortifrúti, pratos prontos e bebidas.",
           "addr": "Av. Brig. Faria Lima, 1939",
           "query": "Carrefour Express, Avenida Brigadeiro Faria Lima, 1939, São Paulo, SP, Brasil",
           "lat": -23.5742571,
           "lng": -46.6886219,
-          "approx": true
+          "approx": true,
+          "m_pe": 254,
+          "m_reta": 192
         },
         {
           "name": "Pão de Açúcar (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
+          "dist": "567 m",
+          "walk": "7 min",
           "desc": "Unidade compacta dentro do shopping, com boa padaria própria e produtos frescos. Ideal para compras do dia a dia.",
           "addr": "Av. Brig. Faria Lima, 2232 · seg–sáb 8h–22h, dom 8h–20h",
           "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
           "lat": -23.5771992,
-          "lng": -46.6880485
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
         }
       ]
     },
@@ -371,25 +429,29 @@
       "places": [
         {
           "name": "Drogaria São Paulo",
-          "dist": "157 m",
-          "walk": "2 min",
+          "dist": "221 m",
+          "walk": "3 min",
           "desc": "Farmácia na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 2156",
           "query": "Drogaria São Paulo, Avenida Brigadeiro Faria Lima, 2156, São Paulo, SP, Brasil",
           "lat": -23.576245,
           "lng": -46.6882462,
-          "approx": true
+          "approx": true,
+          "m_pe": 221,
+          "m_reta": 157
         },
         {
           "name": "Drogasil",
-          "dist": "159 m",
-          "walk": "2 min",
+          "dist": "223 m",
+          "walk": "3 min",
           "desc": "Farmácia na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 2127",
           "query": "Drogasil, Avenida Brigadeiro Faria Lima, 2127, São Paulo, SP, Brasil",
           "lat": -23.5762392,
           "lng": -46.6882218,
-          "approx": true
+          "approx": true,
+          "m_pe": 223,
+          "m_reta": 159
         }
       ]
     },
@@ -401,14 +463,16 @@
       "places": [
         {
           "name": "Correios Faria Lima",
-          "dist": "159 m",
-          "walk": "2 min",
+          "dist": "209 m",
+          "walk": "3 min",
           "desc": "Agência dos Correios na Faria Lima.",
           "addr": "Av. Brig. Faria Lima, 2070",
           "query": "Correios, Avenida Brigadeiro Faria Lima, 2070, São Paulo, SP, Brasil",
           "lat": -23.5754486,
           "lng": -46.6881249,
-          "approx": true
+          "approx": true,
+          "m_pe": 209,
+          "m_reta": 159
         }
       ]
     },
@@ -420,23 +484,27 @@
       "places": [
         {
           "name": "Iguatemi São Paulo",
-          "dist": "235 m",
-          "walk": "3 min",
+          "dist": "567 m",
+          "walk": "7 min",
           "desc": "Um dos shoppings mais completos da cidade: praça de alimentação, restaurantes, cinema, farmácia, banco e lojas de todos os tipos. Ótima opção para almoço, resolver pendências ou receber visitas de clientes.",
           "addr": "Av. Brig. Faria Lima, 2232 · seg–sáb 10h–22h, dom 12h–20h",
           "query": "Shopping Iguatemi São Paulo, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
           "lat": -23.5771992,
-          "lng": -46.6880485
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
         },
         {
           "name": "Shopping Eldorado",
-          "dist": "713 m",
-          "walk": "9 min",
+          "dist": "1,14 km",
+          "walk": "14 min",
           "desc": "Segunda opção de shopping na região, na Av. Rebouças.",
           "addr": "Av. Rebouças",
           "query": "Shopping Eldorado, Avenida Rebouças, São Paulo, SP, Brasil",
           "lat": -23.5726463,
-          "lng": -46.6958195
+          "lng": -46.6958195,
+          "m_pe": 1139,
+          "m_reta": 713
         }
       ]
     },
@@ -447,45 +515,53 @@
       "intro": "",
       "places": [
         {
-          "name": "Espaço Andreia Monteiro — Pilates",
-          "dist": "162 m",
-          "walk": "2 min",
-          "desc": "Estúdio de pilates bem avaliado, ambiente amplo e claro. Ótima opção para quem prefere treino de baixo impacto.",
-          "addr": "Av. Brig. Faria Lima, 2128, sl 902",
-          "query": "Avenida Brigadeiro Faria Lima, 2128, São Paulo, SP, Brasil",
-          "lat": -23.5759255,
-          "lng": -46.688095
-        },
-        {
           "name": "HIIT Club — Health & Fitness",
-          "dist": "169 m",
-          "walk": "2 min",
+          "dist": "227 m",
+          "walk": "3 min",
           "desc": "A mais próxima de todas. Treino personalizado em grupos pequenos, equipamento completo, staff bilíngue.",
           "addr": "Av. Brig. Faria Lima, 2092 · seg–sex 6h–21h, sáb 9h–13h",
           "query": "Avenida Brigadeiro Faria Lima, 2092, São Paulo, SP, Brasil",
           "lat": -23.5756356,
           "lng": -46.6880107,
-          "approx": true
+          "approx": true,
+          "m_pe": 227,
+          "m_reta": 169
+        },
+        {
+          "name": "Espaço Andreia Monteiro — Pilates",
+          "dist": "255 m",
+          "walk": "3 min",
+          "desc": "Estúdio de pilates bem avaliado, ambiente amplo e claro. Ótima opção para quem prefere treino de baixo impacto.",
+          "addr": "Av. Brig. Faria Lima, 2128, sl 902",
+          "query": "Avenida Brigadeiro Faria Lima, 2128, São Paulo, SP, Brasil",
+          "lat": -23.5759255,
+          "lng": -46.688095,
+          "m_pe": 255,
+          "m_reta": 162
         },
         {
           "name": "Bodytech (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
+          "dist": "567 m",
+          "walk": "7 min",
           "desc": "Academia no 9º andar do Iguatemi, com vestiário amplo e lounge.",
           "addr": "Av. Brig. Faria Lima, 2232 · seg–sex 6h–22h · sáb 8h–16h · dom 9h–14h",
           "query": "Bodytech, Shopping Iguatemi, Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
           "lat": -23.5771992,
-          "lng": -46.6880485
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
         },
         {
           "name": "Bodytech (Shopping Eldorado)",
-          "dist": "713 m",
-          "walk": "9 min",
+          "dist": "1,14 km",
+          "walk": "14 min",
           "desc": "Unidade Pinheiros, dentro do Shopping Eldorado. Rede premium com piscina e sauna.",
           "addr": "Av. Rebouças, 3970 · Shopping Eldorado",
           "query": "Bodytech Pinheiros, Shopping Eldorado, Avenida Rebouças, 3970, São Paulo, SP, Brasil",
           "lat": -23.5726463,
-          "lng": -46.6958195
+          "lng": -46.6958195,
+          "m_pe": 1139,
+          "m_reta": 713
         }
       ]
     },
@@ -497,65 +573,77 @@
       "places": [
         {
           "name": "CAL Center — GarageINN",
-          "dist": "207 m",
-          "walk": "3 min",
+          "dist": "282 m",
+          "walk": "4 min",
           "desc": "É o mais perto, mas os funcionários avisam de demora recorrente (30–50 min) para liberar o carro e mau atendimento. Use com esse alerta em mente.",
           "addr": "Av. Brig. Faria Lima, 1912",
           "query": "Avenida Brigadeiro Faria Lima, 1912, São Paulo, SP, Brasil",
           "lat": -23.5740301,
           "lng": -46.688761,
-          "approx": true
+          "approx": true,
+          "m_pe": 282,
+          "m_reta": 207
         },
         {
           "name": "Garagem Faria Lima (Shopping Iguatemi)",
-          "dist": "235 m",
-          "walk": "3 min",
+          "dist": "567 m",
+          "walk": "7 min",
           "desc": "Estacionamento do shopping, bem sinalizado — boa alternativa próxima ao GarageINN, com estrutura maior.",
           "addr": "Av. Brig. Faria Lima, 2232",
           "query": "Avenida Brigadeiro Faria Lima, 2232, São Paulo, SP, Brasil",
           "lat": -23.5771992,
-          "lng": -46.6880485
+          "lng": -46.6880485,
+          "m_pe": 567,
+          "m_reta": 235
         },
         {
           "name": "BandeiraPark Sampaio Vidal",
-          "dist": "462 m",
-          "walk": "6 min",
+          "dist": "621 m",
+          "walk": "8 min",
           "desc": "Alternativa na mesma rua, a poucos metros da anterior — mesma administradora.",
           "addr": "R. Sampaio Vidal, 1154",
           "query": "Rua Sampaio Vidal, 1154, São Paulo, SP, Brasil",
           "lat": -23.5715406,
-          "lng": -46.6896789
+          "lng": -46.6896789,
+          "m_pe": 621,
+          "m_reta": 462
         },
         {
           "name": "Bandeira Park Faria Lima",
-          "dist": "462 m",
-          "walk": "6 min",
+          "dist": "621 m",
+          "walk": "8 min",
           "desc": "Fica na mesma rua do Adega Santiago — a poucos números de distância. Bem avaliado, limpo e bem sinalizado, embora com preço um pouco mais alto.",
           "addr": "R. Sampaio Vidal, 1173",
           "query": "Rua Sampaio Vidal, 1173, São Paulo, SP, Brasil",
           "lat": -23.5715406,
           "lng": -46.6896789,
-          "approx": true
+          "approx": true,
+          "m_pe": 621,
+          "m_reta": 462
         },
         {
           "name": "AC Parking Estacionamentos",
-          "dist": "679 m",
-          "walk": "8 min",
+          "dist": "970 m",
+          "walk": "12 min",
           "desc": "Bem avaliado, manobristas atenciosos — a melhor relação distância/qualidade da região.",
           "addr": "R. Diogo Moreira, 247",
           "query": "Rua Diogo Moreira, 247, São Paulo, SP, Brasil",
           "lat": -23.5706331,
-          "lng": -46.6933881
+          "lng": -46.6933881,
+          "m_pe": 970,
+          "m_reta": 679
         },
         {
           "name": "And Park / Valet Gabriel",
-          "dist": "1,02 km",
-          "walk": "13 min",
+          "dist": "1,08 km",
+          "walk": "14 min",
           "desc": "Serviço de valet bem avaliado, útil para reuniões com visitantes ou clientes.",
           "addr": "Al. Gabriel Monteiro da Silva, 1324",
           "query": "Alameda Gabriel Monteiro da Silva, 1324, São Paulo, SP, Brasil",
           "lat": -23.571226,
-          "lng": -46.6809264
+          "lng": -46.6809264,
+          "m_pe": 1082,
+          "m_reta": 1020
         }
       ]
     },
@@ -568,57 +656,67 @@
         {
           "name": "Ponto Faria Lima, 1826",
           "tag": "Ônibus",
-          "dist": "254 m",
-          "walk": "3 min",
+          "dist": "351 m",
+          "walk": "4 min",
           "desc": "Diversas linhas municipais e metropolitanas — é o transporte público mais conveniente para quem vem de outras regiões.",
           "addr": "Av. Brig. Faria Lima, 1826 · parada Dona Elisa Pereira de Barros",
           "query": "Avenida Brigadeiro Faria Lima, 1826, São Paulo, SP, Brasil",
           "lat": -23.573424,
-          "lng": -46.689392
+          "lng": -46.689392,
+          "m_pe": 351,
+          "m_reta": 254
         },
         {
           "name": "Ponto Faria Lima, 1811",
           "tag": "Ônibus",
-          "dist": "302 m",
-          "walk": "4 min",
+          "dist": "409 m",
+          "walk": "5 min",
           "desc": "Mesma avenida, sentido oposto.",
           "addr": "Av. Brig. Faria Lima, 1811 · parada Benedito Chaves",
           "query": "Avenida Brigadeiro Faria Lima, 1811, São Paulo, SP, Brasil",
           "lat": -23.5730054,
-          "lng": -46.6892907
-        },
-        {
-          "name": "Estação Hebraica–Rebouças",
-          "tag": "Trem (CPTM) · Linha 9-Esmeralda",
-          "dist": "945 m",
-          "walk": "12 min",
-          "desc": "Estação da Linha 9-Esmeralda, na Marginal Pinheiros — a estação mais próxima do escritório.",
-          "addr": "Marginal Pinheiros",
-          "query": "Estação Hebraica-Rebouças, São Paulo, SP, Brasil",
-          "lat": -23.5735742,
-          "lng": -46.698645
+          "lng": -46.6892907,
+          "m_pe": 409,
+          "m_reta": 302
         },
         {
           "name": "Estação Faria Lima",
           "tag": "Metrô · Linha 4-Amarela",
-          "dist": "1,05 km",
-          "walk": "13 min",
+          "dist": "1,24 km",
+          "walk": "15 min",
           "desc": "A estação de metrô mais próxima do escritório.",
           "addr": "Largo da Batata · Linha 4-Amarela",
           "query": "Estação Faria Lima, Linha 4-Amarela, São Paulo, SP, Brasil",
           "lat": -23.5668879,
-          "lng": -46.6934101
+          "lng": -46.6934101,
+          "m_pe": 1241,
+          "m_reta": 1051
+        },
+        {
+          "name": "Estação Hebraica–Rebouças",
+          "tag": "Trem (CPTM) · Linha 9-Esmeralda",
+          "dist": "1,40 km",
+          "walk": "18 min",
+          "desc": "Estação da Linha 9-Esmeralda, na Marginal Pinheiros — a estação mais próxima do escritório.",
+          "addr": "Marginal Pinheiros",
+          "query": "Estação Hebraica-Rebouças, São Paulo, SP, Brasil",
+          "lat": -23.5735742,
+          "lng": -46.698645,
+          "m_pe": 1396,
+          "m_reta": 945
         },
         {
           "name": "Estação Pinheiros",
           "tag": "Metrô + Trem (CPTM)",
-          "dist": "1,57 km",
-          "walk": "20 min",
+          "dist": "2,03 km",
+          "walk": "25 min",
           "desc": "Integração entre a Linha 4-Amarela (metrô) e a Linha 9-Esmeralda (CPTM). Melhor opção para quem vem de outras cidades da região metropolitana.",
           "addr": "Rua Capri, Pinheiros",
           "query": "Estação Pinheiros, São Paulo, SP, Brasil",
           "lat": -23.567249,
-          "lng": -46.7019515
+          "lng": -46.7019515,
+          "m_pe": 2031,
+          "m_reta": 1565
         }
       ]
     }

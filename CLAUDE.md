@@ -41,15 +41,29 @@ JavaScript é estável. Não tente reordenar mexendo no arquivo; mexa no
 ```powershell
 # editar places.json (a fonte da verdade de todo o conteúdo)
 python geocode.py     # so se acrescentou lugar sem lat/lng
-python validate.py    # confere coordenada contra a distancia escrita no texto
+python routes.py      # se mexeu em coordenada: refaz a distancia a pe
+python validate.py    # confere as quatro invariantes
 python build.py       # SEMPRE
 git add -A; git commit -m "..."; git push
 ```
 
-`validate.py` é o que impede pino errado: ele calcula a distância em linha reta
-do escritório até cada lugar e compara com o campo `dist`. O rodapé do guia diz
-que as distâncias são em linha reta a partir do endereço-base, então divergência
-grande significa geocodificação errada, não imprecisão.
+## A distância exibida é a pé, não em linha reta
+
+Trocado em 2026-09-30, depois de medir os 49 lugares: a caminhada é em mediana
+**1,39x** a linha reta e chega a **2,42x** no Shopping Iguatemi — 235 m de
+linha reta viram 567 m a pé, porque é preciso atravessar a Faria Lima. O guia
+prometia 3 minutos para uma caminhada de 7.
+
+`routes.py` usa a instância pública do Valhalla da FOSSGIS, com perfil de
+pedestre, sem chave e sem cadastro. Roda uma vez e grava `dist`, `walk`,
+`m_pe` e `m_reta` no `places.json`; **o site publicado não chama roteador
+nenhum**. Se mexer em qualquer coordenada, rode de novo — senão a distância
+fica descolada do pino.
+
+`validate.py` confere quatro coisas: o texto de `dist` contra `m_pe`; o
+`m_reta` contra a haversine da coordenada (é o que pega coordenada trocada);
+que a caminhada nunca é menor que a linha reta; e razão a pé / linha reta
+acima de 3x, que denuncia pino do lado errado de uma barreira.
 
 ## Armadilhas já pagas neste repositório
 
@@ -58,11 +72,15 @@ grande significa geocodificação errada, não imprecisão.
   deslocado, o que jogou *todos* os pinos junto. Nunca aceite o primeiro
   resultado: `fix_geocode.py` pede vários candidatos e escolhe o que bate com a
   distância declarada.
-- **Faria Lima 1912 e 2092 não existem no OpenStreetMap.** Estão interpolados
-  entre 1853 e 2232, marcados com `"approx": true` no `places.json`.
-- **Dois lugares não têm pino de propósito** — "Padoca of Maní · Um Coffee Co. ·
-  KOF" e "Bodytech (Av. Rebouças)". O guia original não traz número. Não invente
-  coordenada para eles.
+- **Vários números da Faria Lima não existem no OpenStreetMap.** São
+  interpolados entre dois números que existem e depois **projetados na
+  geometria da avenida** (`snap.py`, com `via_fl.pkl`). Estão marcados com
+  `"approx": true`. A projeção não é enfeite: interpolar só em linha reta
+  errava de 35 a 68 m onde a avenida faz curva, e isso jogou o HIIT Club na
+  Rua Jacarezinho e o Carrefour na Rua Agrário de Sousa. Medido em 2026-09-30.
+- **Endereço que o Nominatim não acha, procure na web antes de desistir.** O
+  Bodytech ficou sem pino por uma sessão inteira porque o guia só dizia "Av.
+  Rebouças"; uma busca resolvia — é a unidade Pinheiros, dentro do Eldorado.
 - **O site lê `data.js` por `<script>`, não `places.json` por `fetch()`**, para
   que o `index.html` também abra com duplo clique. `file://` bloqueia `fetch`.
 - **CARTO não serve mais tile sem chave de API** — devolve tile com marca
